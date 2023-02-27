@@ -23,7 +23,7 @@ body:
     attributes:
       label: What operating system are you using?
       options:
-        - Windows
+        - Windows (Only Supported)
         - macOS
         - Ubuntu
         - Other Linux
