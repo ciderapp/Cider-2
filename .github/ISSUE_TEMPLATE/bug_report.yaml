@@ -34,7 +34,7 @@ body:
     attributes:
       label: Build Details
       description: When did you install Cider Fujisan? (Discord Message link of build and/or date)
-     validations:
+    validations:
       required: true
   - type: input
     attributes:
