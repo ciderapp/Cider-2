@@ -15,7 +15,7 @@ body:
       options:
         - label: I agree to follow the [Code of Conduct](https://cider.sh/legal/conduct) that this project adheres to.
           required: true
-        - label: I have searched the [issue tracker](https://github.com/ciderapp/Fujisan-BugTracker/issues) for a bug report that matches the one I want to file, without success.
+        - label: I have searched the [issue tracker](https://github.com/ciderapp/Sabiiro-BugTracker/issues) for a bug report that matches the one I want to file, without success.
           required: true
         - label: I have read the [troublshooting FAQs](https://cider.gitbook.io/welcome-to-gitbook/support/faqs) and none solved my issue. (* These are outdated and may not necessarily be possible in the current app version. *)
           required: true
@@ -33,7 +33,7 @@ body:
   - type: input
     attributes:
       label: Build Details
-      description: When did you install Cider Fujisan? (Discord Message link of build and/or date)
+      description: When did you install Cider Sabiiro? (Discord Message link of build and/or date)
     validations:
       required: true
   - type: input
