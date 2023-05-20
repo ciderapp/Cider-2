@@ -1,7 +1,7 @@
 name: Bug Report
 description: If you encounter an issue whilst using our app, please use this template to help improve the app.
-title: "[Bug]: "
-labels: ["🕓 Pending", "🐛 Bug"]
+title: ""
+labels: ["🐛 Bug"]
 assignees: []
 body:
   - type: markdown
@@ -17,23 +17,21 @@ body:
           required: true
         - label: I have searched the [issue tracker](https://github.com/ciderapp/Sabiiro-BugTracker/issues) for a bug report that matches the one I want to file, without success.
           required: true
-        - label: I have read the [troublshooting FAQs](https://cider.gitbook.io/welcome-to-gitbook/support/faqs) and none solved my issue. (* These are outdated and may not necessarily be possible in the current app version. *)
+        - label: I have read the [troublshooting FAQs](https://cider.gitbook.io/welcome-to-gitbook/support/faqs) and none solved my issue.
           required: true
   - type: dropdown
     attributes:
       label: What operating system are you using?
       options:
-        - Windows (Only Supported)
+        - Windows
         - macOS
-        - Ubuntu
-        - Other Linux
-        - Other (specify below)
+        - Linux
     validations:
       required: true
   - type: input
     attributes:
       label: Build Details
-      description: When did you install Cider Sabiiro? (Discord Message link of build and/or date)
+      description: When did you install Cider? You can find your version from [this guide](docs/FINDING_VERSION.md).
     validations:
       required: true
   - type: input

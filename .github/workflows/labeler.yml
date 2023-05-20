@@ -1,0 +1,18 @@
+name: "Issue Labeler"
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: github/issue-labeler@v2.5 #May not be the latest version
+      with:
+        configuration-path: .github/labeler.yml
+        not-before: 2020-01-15T02:54:32Z
+        enable-versioned-regex: 0
+        include-title: 1
