@@ -1,6 +1,5 @@
 name: Bug Report
 description: If you encounter an issue whilst using our app, please use this template to help improve the app.
-title: ""
 labels: ["🐛 Bug"]
 assignees: []
 body:
