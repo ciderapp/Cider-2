@@ -30,7 +30,7 @@ body:
   - type: input
     attributes:
       label: Build Details
-      description: When did you install Cider? You can find your version from [this guide](docs/FINDING_VERSION.md).
+      description: When did you install Cider? You can find your version from [this guide](../docs/FINDING_VERSION.md).
     validations:
       required: true
   - type: input
