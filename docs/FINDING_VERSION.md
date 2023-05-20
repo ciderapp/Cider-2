@@ -2,4 +2,4 @@
 
 Firstly go to the About page through the Cider menu:
 
-image.png
+![Cider Menu](/docs/image.png)
