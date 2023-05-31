@@ -5,7 +5,8 @@ on:
 
 permissions:
   issues: write
-
+  contents: read
+  
 jobs:
   triage:
     runs-on: ubuntu-latest
@@ -15,4 +16,3 @@ jobs:
         configuration-path: .github/labeler.yml
         not-before: 2020-01-15T02:54:32Z
         enable-versioned-regex: 0
-        include-title: 1
