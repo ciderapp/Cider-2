@@ -1,10 +1,10 @@
 "👥 team: connect":
-  - '(?i)\bconnect\b'
-  - '(?i)\bsaki\b'
+  - '(connect|Connect)'
+  - '(saki|Saki)'
 
 "🚀 feat: ClientDB":
-  - '(?i)\bclientdb\b'
-  - '(?i)\bclient db\b'
+  - '(clientdb|client db)'
+  - 'ClientDB'
   
 "🤖 feat: Compose":
-  - '(?i)\bsaki\b'
+  - '(saki|Saki)'
