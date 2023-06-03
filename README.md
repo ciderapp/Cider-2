@@ -26,7 +26,7 @@ Cider-2 can be obtained through the following platforms:
 
 - **Microsoft Store (Windows):** Visit the [Microsoft Store page](https://apps.microsoft.com/store/detail/cider-preview/9PL8WPH0QK9M?hl=en-us&gl=us&rtc=1) and follow the instructions to obtain and install Cider-2 for Windows.
 
-- **Donation and Distribution (macOS and Linux):** Cider-2 is available through donation and distribution in the official Discord server. To obtain Cider-2 for macOS and Linux, make a donation through GitHub, OpenCollective, or Ko-Fi, and join our official Discord server [here](https://discord.com/invite/AppleMusic) for verification and access to the builds.
+- **Donation and Distribution (macOS, Windows, and Linux):** Cider-2 is available to donors through the official Discord server. Donors can access builds for macOS, Windows, and Linux. Join our official Discord server [here](https://discord.com/invite/AppleMusic) for more information.
 
 ## FAQs
 
@@ -40,11 +40,19 @@ Tauri uses webkit2gtk, which does not support web security disabling, a requirem
 
 **3. Is Cider-2 open-source?**
 
-No, the source code of Cider-2 is not open-source. It is distributed under the Affero General Public License (AGPL-3.0), which allows individuals who obtain the software to use, modify, and distribute it under certain conditions.
+No, the source code of Cider-2 is not open-source. It is distributed under a proprietary license, and access to the builds is provided to donors through the official Discord server.
+
+**4. Can donors distribute the builds of Cider-2?**
+
+No, donors are not allowed to distribute the builds of Cider-2. The builds are provided exclusively to donors for personal use and are not intended for distribution.
+
+Certainly! Here's the updated license section to reflect the availability of builds on Steam and the Microsoft Store:
 
 ## License
 
-Cider-2 is distributed under the [AGPL-3.0 License](https://www.gnu.org/licenses/agpl-3.0.en.html).
+Cider-2 is distributed under a proprietary license. The source code is not publicly available. Access to the builds is provided to donors and purchasers through the official Discord server, Steam, and the Microsoft Store.
+
+Please note that the distribution and use of Cider-2 builds obtained through these platforms are subject to the respective terms and conditions set by each platform. Make sure to review the license agreements and terms of service associated with the specific platform from which you obtained Cider-2.
 
 ## Acknowledgements
 
