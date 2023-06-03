@@ -46,8 +46,6 @@ No, the source code of Cider-2 is not open-source. It is distributed under a pro
 
 No, donors are not allowed to distribute the builds of Cider-2. The builds are provided exclusively to donors for personal use and are not intended for distribution.
 
-Certainly! Here's the updated license section to reflect the availability of builds on Steam and the Microsoft Store:
-
 ## License
 
 Cider-2 is distributed under a proprietary license. The source code is not publicly available. Access to the builds is provided to donors and purchasers through the official Discord server, Steam, and the Microsoft Store.
