@@ -46,6 +46,14 @@ No, the source code of Cider-2 is not open-source. It is distributed under a pro
 
 No, donors are not allowed to distribute the builds of Cider-2. The builds are provided exclusively to donors for personal use and are not intended for distribution.
 
+**5. Will Crossfade be implemented?**
+
+Crossfade is a feature that has been requested many times, however its implementation would require a lot of time, and the team's time ie better spent working on other essential functionality. If Apple adds Crossfade to MusicKit then we can easily enable it, but until then we cannot do anything. 
+
+**6. Is there going to be an EQ?**
+
+An EQ is very possible in the future as we did have an implementation on Cider-1. However, the audio area of Cider-2 is in a reduced state, so this may be a while.
+
 ## License
 
 Cider-2 is distributed under a proprietary license. The source code is not publicly available. Access to the builds is provided to donors and purchasers through the official Discord server, Steam, and the Microsoft Store.
