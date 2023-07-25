@@ -22,11 +22,13 @@ Cider-2 utilizes a range of technologies to deliver a seamless user experience:
 
 Cider-2 can be obtained through the following platforms:
 
-- **Steam:** Visit the [Steam store page](https://store.steampowered.com/app/2446120/Cider) and follow the instructions to purchase and install Cider-2.
+- **Itch.io** Visit out page on [itch.io](https://cidercollective.itch.io/cider) where you can purchase Cider-2 for all platforms
 
 - **Microsoft Store (Windows):** Visit the [Microsoft Store page](https://apps.microsoft.com/store/detail/cider-preview/9PL8WPH0QK9M?hl=en-us&gl=us&rtc=1) and follow the instructions to obtain and install Cider-2 for Windows.
 
 - **Donation and Distribution (macOS, Windows, and Linux):** Cider-2 is available to donors through the official Discord server. Donors can access builds for macOS, Windows, and Linux. Join our official Discord server [here](https://discord.com/invite/AppleMusic) for more information.
+
+*please note that we cannot transfer ownership between accounts, if you buy Cider on the Microsoft Store, we cannot transfer ownership to an itch.io account or vice versa*
 
 ## FAQs
 
