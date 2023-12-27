@@ -30,11 +30,18 @@ Cider-2 can be obtained through the following platforms:
 
 *please note that we cannot transfer ownership between accounts, if you buy Cider on the Microsoft Store, we cannot transfer ownership to an itch.io account or vice versa*
 
+## Main Missing Features Compared to standard Apple Music clients
+
+1. Lossless: _Not currently possible in the MusicKit.js library due to there being no ability to decrypt the lossless music. We are working on implementing this with our own implementation of the MusicKit service. But this is still a while off._
+2. Crossplay: _Same issue as above, we are limited on audio managing and modifying in MusicKit_
+3. Smart Playlists: _This is a limitation of the API. Smart playlists are currently handled in Apple proprietary API which we do not have access to. We are working on our own in-house solution to this, but this is in early stages._
+4. 
+
 ## FAQs
 
 **1. Will Cider-2 support lossless audio?**
 
-Currently, lossless playback is not supported in Cider-2. While Apple's MusicKit Framework does have lossless support, decryption of this audio is not currently supported.
+(See above)
 
 **2. Why is Tauri not used on Linux?**
 
@@ -50,7 +57,7 @@ No, donors are not allowed to distribute the builds of Cider-2. The builds are p
 
 **5. Will Crossfade be implemented?**
 
-Crossfade is a feature that has been requested many times, however its implementation would require a lot of time, and the team's time ie better spent working on other essential functionality. If Apple adds Crossfade to MusicKit then we can easily enable it, but until then we cannot do anything. 
+(See above)
 
 **6. Is there going to be an EQ?**
 
