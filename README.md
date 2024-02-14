@@ -48,7 +48,7 @@ Tauri uses webkit2gtk, which does not support web security disabling, a requirem
 
 **3. Is Cider-2 open-source?**
 
-No, the source code of Cider-2 is not open-source. It is distributed under a proprietary license, and access to the builds is provided to donors through the official Discord server.
+No, the source code of Cider-2 is not open-source. It is distributed under a proprietary license.
 
 **4. Can donors distribute the builds of Cider-2?**
 
@@ -64,7 +64,7 @@ An EQ is very possible in the future as we did have an implementation on Cider-1
 
 ## License
 
-Cider-2 is distributed under a proprietary license. The source code is not publicly available. Access to the builds is provided to donors and purchasers through the official Discord server, Steam, and the Microsoft Store.
+Cider-2 is distributed under a proprietary license. The source code is not publicly available. Access to the builds is provided to donors and purchasers through the official Discord server, itch.io, and the Microsoft Store.
 
 Please note that the distribution and use of Cider-2 builds obtained through these platforms are subject to the respective terms and conditions set by each platform. Make sure to review the license agreements and terms of service associated with the specific platform from which you obtained Cider-2.
 
