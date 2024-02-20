@@ -1,10 +1,9 @@
 name: Close issues
 
 on:
-  push
-  # schedule:
-  #   - cron: '0 1 * * *'
-  # workflow_dispatch:
+  schedule:
+    - cron: '* * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
