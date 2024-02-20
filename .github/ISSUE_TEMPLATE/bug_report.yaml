@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report! 
+        Before you start, if you have a feature request please forward it to our [Discord server](https://discord.com/invite/AppleMusic), where it can be discussed within the community.
+        *Opening Feature Requests on GitHub will be closed and ignored. You have been warned!*
   - type: checkboxes
     attributes:
       label: Preflight Checklist

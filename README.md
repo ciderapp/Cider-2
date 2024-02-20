@@ -2,7 +2,7 @@
 
 Cider-2 is a modern Apple Music app built using Vue.js, TypeScript, and an Electron/Tauri backend. It provides a sleek and intuitive user interface to enjoy your favorite music from the Apple Music library.
 
-**Note: This readme file is for the public repository of Cider-2, which is used for issue tracking, discussions, and feature requests. The actual source code is not publicly available.**
+**Note: This readme file is for the public repository of Cider-2, which is used for issue tracking. The actual source code is not publicly available.**
 
 ## Features
 
