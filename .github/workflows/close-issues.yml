@@ -17,4 +17,4 @@ jobs:
           days-before-pr-stale: 45
           days-before-issue-close: 5
           days-before-pr-close: 10
-          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,wont fix'
+          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,wont fix,awaiting response'
