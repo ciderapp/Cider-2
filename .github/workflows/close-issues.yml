@@ -1,46 +1,20 @@
-name: Close issues
-
+name: 'Close stale issues and PRs'
 on:
   schedule:
-    - cron: '0 1 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: read
-
-# Ensure scripts are run with pipefail. See:
-# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#exit-codes-and-error-action-preference
-defaults:
-  run:
-    shell: bash
+    - cron: '30 1 * * *'
 
 jobs:
-  close-issues:
+  stale:
     runs-on: ubuntu-latest
-    if: github.repository == 'ciderapp/Cider-2'
-    permissions:
-      contents: read # Apparently required to create issues
-      issues: write
-
     steps:
-      - name: Close issues
-        env:
-          GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
-        run: |
-          DATE=$(date --date='2 days ago' --iso-8601)
-
-          close_issues() {
-            echo "Closing issues marked as '$1'."
-            for issue in $(gh issue list --limit 100 --label "$1" --repo ${{ github.repository }} --state open --search "updated:<$DATE" --json number --jq '.[].number'); do
-              echo "Closing https://github.com/${{ github.repository }}/issues/$issue"
-              gh issue close $issue --repo ${{ github.repository }} --reason "not planned" --comment "This issue has been marked as \"$1\" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
-            done
-          }
-
-          close_issues "Duplicate"
-          close_issues "Unactionable"
-          close_issues "Not a Defect"
-          close_issues "Working as Intended"
-          close_issues "Question"
-          close_issues "Won't Fix"
-          close_issues "Too Complex"
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days.'
+          stale-pr-message: 'This PR is stale because it has been open 45 days with no activity. Remove stale label or comment or this will be closed in 10 days.'
+          close-issue-message: 'This issue was closed because it has been stalled for 5 days with no activity.'
+          close-pr-message: 'This PR was closed because it has been stalled for 10 days with no activity.'
+          days-before-issue-stale: 30
+          days-before-pr-stale: 45
+          days-before-issue-close: 5
+          days-before-pr-close: 10
+          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,wont fix'
