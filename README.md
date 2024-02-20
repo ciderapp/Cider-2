@@ -36,7 +36,7 @@ Cider-2 can be obtained through the following platforms:
 2. **Crossplay**: _Same issue as above, we are limited on audio managing and modifying in MusicKit_
 3. **Smart Playlists**: _This is a limitation of the API. Smart playlists are currently handled in Apple proprietary API which we do not have access to. We are working on our own in-house solution to this, but this is in early stages._
 
-## FAQs
+## FAQ
 
 **1. Will Cider-2 support lossless audio?**
 
