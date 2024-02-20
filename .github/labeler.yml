@@ -2,9 +2,3 @@
   - '(connect|Connect)'
   - '(saki|Saki)'
 
-"🚀 feat: ClientDB":
-  - '(clientdb|client db)'
-  - 'ClientDB'
-  
-"🤖 feat: Compose":
-  - '(saki|Saki)'
