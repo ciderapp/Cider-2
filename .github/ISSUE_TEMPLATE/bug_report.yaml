@@ -32,6 +32,7 @@ body:
     validations:
       required: true
   - type: input
+    id: build_details
     attributes:
       label: Build Details
       description: When did you install Cider? You can find your build details from [this guide](https://github.com/ciderapp/Cider-2/blob/main/docs/FINDING_VERSION.md).
