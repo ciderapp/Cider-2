@@ -18,9 +18,9 @@ body:
           required: true
         - label: I have searched the [issue tracker](https://github.com/ciderapp/Cider-2/issues) for a bug report that matches the one I want to file, without success.
           required: true
-        - label: I have checked that I am using a supported version of Cider. You can find the list of supported versions [here](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md).
-          required: true
         - label: I have checked that the correct behavior occurs on [Apple Music Web](https://music.apple.com) (if applicable).
+          required: true
+        - label: I have verified that my issue is with a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md) and that it is with the desktop app (Support for other areas can be found in our Discord / on the appropriate repo).
           required: true
   - type: dropdown
     attributes:
