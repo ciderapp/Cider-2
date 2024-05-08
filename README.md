@@ -33,7 +33,7 @@ Cider-2 can be obtained through the following platforms:
 ## Main Missing Features Compared to standard Apple Music clients
 
 1. **Lossless**: _Not currently possible in the MusicKit.js library due to there being no ability to decrypt the lossless music. We are working on implementing this with our own implementation of the MusicKit service. But this is still a while off._
-2. **Crossplay**: _Same issue as above, we are limited on audio managing and modifying in MusicKit_
+2. **Crossfade**: _Same issue as above, we are limited on audio managing and modifying in MusicKit_
 3. **Smart Playlists**: _This is a limitation of the API. Smart playlists are currently handled in Apple proprietary API which we do not have access to. We are working on our own in-house solution to this, but this is in early stages._
 
 ## FAQ
