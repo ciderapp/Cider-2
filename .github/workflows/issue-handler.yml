@@ -10,7 +10,7 @@ jobs:
   first-interaction:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/first-interaction@v1
+      - uses: actions/first-interaction@v1.3.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |-
@@ -27,7 +27,7 @@ jobs:
   auto-labeler:
     runs-on: ubuntu-latest
     steps:
-      - uses: github/issue-labeler@v3.1
+      - uses: github/issue-labeler@v3.4
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           configuration-path: .github/labeler.yml
