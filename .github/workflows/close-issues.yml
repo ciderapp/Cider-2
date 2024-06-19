@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          stale-issue-label: 'stale'
+          stale-issue-label: 'stale/wontfix'
           stale-issue-message: 'This issue is stale because it has been open for 10 days with no activity. Remove stale label or comment or this will be closed in 5 days.'
           close-issue-message: 'This issue was closed because it has been stalled for 5 days with no activity.'
           days-before-issue-stale: 10
           days-before-issue-close: 5
-          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,wont fix,awaiting response'
+          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,awaiting response'
