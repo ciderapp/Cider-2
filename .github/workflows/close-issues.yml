@@ -14,8 +14,8 @@ jobs:
       - uses: actions/stale@v9
         with:
           stale-issue-label: 'stale/wontfix'
-          stale-issue-message: 'This issue is stale because it has been open for 10 days with no activity. Remove stale label or comment or this will be closed in 5 days.'
-          close-issue-message: 'This issue was closed because it has been stalled for 5 days with no activity.'
+          stale-issue-message: 'This issue is stale. If this issue is still occurring and you are on a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please leave any comment (e.g. "bump") and the issue will remain open. If you have any additional information that may help us resolve your issue, please include it with your comment.'
+          close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
           days-before-issue-stale: 10
           days-before-issue-close: 5
-          any-of-labels: 'duplicate,edge-case,nitpicking,unactionable,unreproducible,awaiting response'
+          exempt-issue-labels: "security,status/confirmed,stale-exempt"

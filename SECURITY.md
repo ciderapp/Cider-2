@@ -6,6 +6,8 @@ These are our supported versions. Please do not report security issues present o
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 2.5.0 (alpha)   | :white_check_mark: |
+| 2.4.2 (beta)   | :white_check_mark: | 
 | 2.4.1   | :white_check_mark: |
 | 2.4.0   | :x: |
 | 2.3.1   | :x: |
