@@ -1,6 +1,6 @@
 # Cider-2
 
-Cider-2 is a modern Apple Music app built using Vue.js, TypeScript, and an Electron/Tauri backend. It provides a sleek and intuitive user interface to enjoy your favorite music from the Apple Music library.
+Cider-2 is a modern Apple Music app built using Vue.js, TypeScript, and an Electron/.NET backend. It provides a sleek and intuitive user interface to enjoy your favorite music from the Apple Music library.
 
 **Note: This readme file is for the public repository of Cider-2, which is used for issue tracking. The actual source code is not publicly available.**
 
@@ -22,7 +22,7 @@ Cider-2 utilizes a range of technologies to deliver a seamless user experience:
 
 - **TypeScript:** TypeScript is a strongly-typed superset of JavaScript that enhances code quality and maintainability. It provides static type-checking, making it easier to catch errors during development.
 
-- **Electron and Tauri:** Cider-2 leverages Electron for platforms other than Windows, while it uses Tauri specifically for the Windows platform. Electron is a framework for building cross-platform desktop applications using web technologies, and Tauri is a cross-platform framework that allows creating native Windows executables using web technologies.
+- **Electron and .NET:** Cider-2 leverages Electron for platforms other than Windows, while it uses .NET+WebView2 specifically for the Windows platform.
 
 ## Installation
 
@@ -49,23 +49,19 @@ Cider-2 can be obtained through the following platforms:
 
 (See above)
 
-**2. Why is Tauri not used on Linux?**
-
-Tauri uses webkit2gtk, which does not support web security disabling, a requirement for Apple's API. Therefore, Tauri is not used on Linux for Cider-2.
-
-**3. Is Cider-2 open-source?**
+**2. Is Cider-2 open-source?**
 
 No, the source code of Cider-2 is not open-source. It is distributed under a proprietary license.
 
-**4. Can donors distribute the builds of Cider-2?**
+**3. Can donors distribute the builds of Cider-2?**
 
 No, donors are not allowed to distribute the builds of Cider-2. The builds are provided exclusively to donors for personal use and are not intended for distribution.
 
-**5. Will Crossfade be implemented?**
+**4. Will Crossfade be implemented?**
 
 (See above)
 
-**6. Is there going to be an EQ?**
+**5. Is there going to be an EQ?**
 
 An EQ is very possible in the future as we did have an implementation on Cider-1. However, the audio area of Cider-2 is in a reduced state, so this may be a while.
 
