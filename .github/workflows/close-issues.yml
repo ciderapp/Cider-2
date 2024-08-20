@@ -16,7 +16,7 @@ jobs:
           stale-issue-label: 'stale/wontfix'
           stale-issue-message: 'This issue is stale. If this issue is still occurring and you are on a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please leave any comment (e.g. "bump") and the issue will remain open. If you have any additional information that may help us resolve your issue, please include it with your comment.'
           close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
-          days-before-issue-stale: 30
-          days-before-issue-close: 10
+          days-before-issue-stale: 14
+          days-before-issue-close: 14
           exempt-issue-labels: "security,status/confirmed,stale/exempt"
           exempt-all-assignees: true
