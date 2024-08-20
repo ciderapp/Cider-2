@@ -18,4 +18,5 @@ jobs:
           close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
           days-before-issue-stale: 30
           days-before-issue-close: 10
-          exempt-issue-labels: "security,status/confirmed,stale-exempt"
+          exempt-issue-labels: "security,status/confirmed,stale/exempt"
+          exempt-all-assignees: true
