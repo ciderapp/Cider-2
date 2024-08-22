@@ -1,3 +1,7 @@
+# 2.5.2-PTB3
+- Added i18n strings for Marketplace
+- Added "Submit Your Theme/Plugin" button to navigation
+
 # 2.5.2-PTB2
 - Added PTB warning
 - Added PTB changelog link in Main Menu -> Help -> PTB Changelog
