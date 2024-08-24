@@ -1,3 +1,7 @@
+# 2.5.2-PTB4
+- automatic language setting
+- fix(updates): fixed an issue where PTB branch would not notify for updates
+
 # 2.5.2-PTB3
 - Added i18n strings for Marketplace
 - Added "Submit Your Theme/Plugin" button to navigation
