@@ -1,3 +1,6 @@
+# 2.5.2-PTB7
+- Fixed issue where Socket.IO API was not emitting playback events on macOS or Linux
+
 # 2.5.2-PTB6
 - Fixes Discord RPC option being grayed out on OOBE for Windows
 - WSAPI `playbackStatus.nowPlayingStatusDidChange` is now called when library status changes
