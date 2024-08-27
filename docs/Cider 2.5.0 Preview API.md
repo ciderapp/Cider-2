@@ -1,6 +1,4 @@
 
-This document is a work in progress and *will* change several times before 2.5's release
-
 Base URL: `http://localhost:10767/`
 ## Playback API Endpoints Documentation
 
@@ -60,6 +58,11 @@ Base URL: `http://localhost:10767/`
 - `/set-rating`
   - Sets the rating for the current track.
   - Requires: `{ rating: number }` (-1, 0, 1)
+  
+- `/queue/move-to-position` - Moves position of queue item to a new position
+  - `startIndex` - Index of what queue item to move
+  - `destinationIndex` - Index of where to move the queue item
+  - `returnQueue`(?) - Returns the queue after the request has finished (slower)
 
 - `/toggle-repeat`
   - Toggles the repeat mode.
@@ -73,3 +76,8 @@ Base URL: `http://localhost:10767/`
 ## Socket.IO Channels
 
 - `API:Playback` - Live Now Playing Feed (readonly)
+
+### `/api/v1/lyrics`
+
+- `/:id` - `:id` - The ID of the item for lyrics.  Library and Catalog types are automatically infered by the endpoint.
+  - Returns: Array of lyrics with time codes
