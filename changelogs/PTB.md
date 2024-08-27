@@ -1,3 +1,8 @@
+# 2.5.2-PTB10
+- feat(rest-api): added /v1/lyrics/:id, automatically infers library or catalog based on ID
+- feat(rpc): added queue move-to-position
+- `/api/v1/playback/queue` now properly returns the queue
+
 # 2.5.2-PTB9
 - Unused code cleanup
 - feat(connectivity): add Cider Remote Testflight link for electron and dotnet frameworks
