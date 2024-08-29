@@ -1,3 +1,6 @@
+# 2.5.2-PTB12
+- Fixed `/api/v1/playback/queue` not working on macOS / Linux
+
 # 2.5.2-PTB11
 - refactor(device): Exclude unwanted and VPN network interfaces
 - refactor(connectivity): Add IP check and revise wording.
