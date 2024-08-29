@@ -1,3 +1,8 @@
+# 2.5.2-PTB11
+- refactor(device): Exclude unwanted and VPN network interfaces
+- refactor(connectivity): Add IP check and revise wording.
+- refactor(device): exclude unwanted network interfaces
+
 # 2.5.2-PTB10
 - feat(rest-api): added /v1/lyrics/:id, automatically infers library or catalog based on ID
 - feat(rpc): added queue move-to-position
