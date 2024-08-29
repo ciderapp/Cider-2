@@ -1,3 +1,10 @@
+# 2.5.2-PTB13
+- feat(rpc): added several RPC commands
+- `/api/v1/playback/play-url` - Takes a `url` in body and will immediately play the item or track associated with the URL
+- `/api/v1/playback//play-item-href` - Similar to play-url but takes an API href instead
+- `/api/v1/playback/play-later`, `/play-next`, `/play-item` - Takes `id`  and `type
+- `/api/v1/playback//queue/change-to-index` - Jumps to and plays the index requested.  Takes `index` (number) in body
+
 # 2.5.2-PTB12
 - Fixed `/api/v1/playback/queue` not working on macOS / Linux
 
