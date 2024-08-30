@@ -2,7 +2,7 @@
 Base URL: `http://localhost:10767/`
 # Playback API Endpoints Documentation
 
-### `/api/v1/playback`
+## `/api/v1/playback`
 
 ### GET Endpoints
 
