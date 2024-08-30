@@ -1,6 +1,6 @@
 
 Base URL: `http://localhost:10767/`
-## Playback API Endpoints Documentation
+# Playback API Endpoints Documentation
 
 ### `/api/v1/playback`
 
@@ -58,11 +58,25 @@ Base URL: `http://localhost:10767/`
 - `/set-rating`
   - Sets the rating for the current track.
   - Requires: `{ rating: number }` (-1, 0, 1)
-  
+
+- `/play-url`
+  - Takes a `url` in body and will immediately play the item or track associated with the URL
+ 
+- `/play-later`
+  - Takes `id` and `type`
+
+ - `/play-next`
+  - Takes `id` and `type`
+
+ - `/play-itemr`
+  - Takes `id` and `type`
+ 
 - `/queue/move-to-position` - Moves position of queue item to a new position
   - `startIndex` - Index of what queue item to move
   - `destinationIndex` - Index of where to move the queue item
   - `returnQueue`(?) - Returns the queue after the request has finished (slower)
+
+- `/queue/change-to-index` - Jumps to and plays the index requested. Takes `index` (number) in body
 
 - `/toggle-repeat`
   - Toggles the repeat mode.
@@ -77,7 +91,18 @@ Base URL: `http://localhost:10767/`
 
 - `API:Playback` - Live Now Playing Feed (readonly)
 
-### `/api/v1/lyrics`
+# Lyrics API
+
+## `/api/v1/lyrics`
 
 - `/:id` - `:id` - The ID of the item for lyrics.  Library and Catalog types are automatically infered by the endpoint.
   - Returns: Array of lyrics with time codes
+
+# Messaging
+
+## `/api/v1/messages`
+
+### POST
+- `/message`
+  - `type` - Name of the listener, defined either in docs or by a plugin.
+  - `data` - Data to be sent. 
