@@ -105,4 +105,15 @@ Base URL: `http://localhost:10767/`
 ### POST
 - `/message`
   - `type` - Name of the listener, defined either in docs or by a plugin.
-  - `data` - Data to be sent. 
+  - `data` - Data to be sent.
+ 
+# Apple Music API
+
+## `/api/v1/amapi`
+
+### POST
+- `/run-v3`
+  - `path` (string)
+
+- `/run-v3turbo`
+  - `path` (string)
