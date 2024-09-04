@@ -1,3 +1,18 @@
+# 2.5.2-PTB16
+- feat(rpc): added more RPC commands
+
+POST `/api/v1/playback/queue/remove-by-index` - Takes `index` in body
+
+POST `/api/v1/playback/queue/clear-queue`
+
+GET `/api/v1/playback/shuffle-mode` - Returns status as data.value
+
+GET `/api/v1/playback/repeat-mode` - Returns status as data.value
+
+GET `/api/v1/playback/autoplay` - Returns status as data.value
+
+GET `/api/v1/playback/library-status` - Returns up to date library status and rating for current track
+
 # 2.5.2-PTB15
 - Updated to Vue 3.5.0
 
