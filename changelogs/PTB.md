@@ -1,3 +1,6 @@
+# 2.5.2-PTB15
+- Updated to Vue 3.5.0
+
 # 2.5.2-PTB14
 - chore: fix play later (shift+z) (Command Palette)
 - feat(applemusic): Add Fyre immersive sing parameters CSS
