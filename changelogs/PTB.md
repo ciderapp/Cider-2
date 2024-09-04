@@ -1,3 +1,15 @@
+# 2.5.2-PTB14
+- chore: fix play later (shift+z) (Command Palette)
+- feat(applemusic): Add Fyre immersive sing parameters CSS
+- refactor(applemusic): Update immersive sing options and layout
+- Update the title of the sing options modal to "Focus Mode Settings" for clarity.
+- Refactor the ImmersiveLayout component to improve code organization and readability.
+- Rename the "Sing Along" button to "Focus Mode" to better reflect its purpose.
+- refactor(wsapi): Update serverRunning and serverPort variables
+- Update the serverRunning and serverPort variables in the WSAPI module.
+- refactor(musickit): Update interact function and add bandaid fix
+- chore(utils): Update setFavorite function and add bandaid fix
+
 # 2.5.2-PTB13
 - feat(rpc): added several RPC commands
 - `/api/v1/playback/play-url` - Takes a `url` in body and will immediately play the item or track associated with the URL
