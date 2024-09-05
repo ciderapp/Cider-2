@@ -1,3 +1,7 @@
+# 2.5.2-PTB17
+- Added Enable Static Lyrics under Visual / Lyrics
+- Fixes issue where home page content may fail to load
+
 # 2.5.2-PTB16
 - feat(rpc): added more RPC commands
 
