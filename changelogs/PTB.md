@@ -1,3 +1,7 @@
+# 2.5.2-PTB21
+- Added Tweaks / Lyrics / Line Staggering
+- Added Tweaks / Lyrics / Line Staggering (Immersive)
+
 # 2.5.2-PTB19
 - Improved lyric scrolling appearance
 - Added Publish in profile and search checkbox to editable playlists
