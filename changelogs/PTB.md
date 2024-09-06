@@ -1,3 +1,6 @@
+# 2.5.2-PTB18
+- Fixed `/api/v1/playback/queue/remove-by-index` not working properly
+
 # 2.5.2-PTB17
 - Added Enable Static Lyrics under Visual / Lyrics
 - Fixes issue where home page content may fail to load
