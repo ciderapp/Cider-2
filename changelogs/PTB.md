@@ -2,6 +2,7 @@
 - Improved lyric scrolling appearance
 - Added Publish in profile and search checkbox to editable playlists
 - Under the hood fixes for content loading
+- Fixed Third Party Lyrics appearing when disabled
 
 # 2.5.2-PTB18
 - Fixed `/api/v1/playback/queue/remove-by-index` not working properly
