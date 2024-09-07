@@ -1,3 +1,6 @@
+# 2.5.2-PTB22
+- refactor(applemusic): fix missing volume percentage in miniplayer
+
 # 2.5.2-PTB21
 - Added Tweaks / Lyrics / Line Staggering
 - Added Tweaks / Lyrics / Line Staggering (Immersive)
