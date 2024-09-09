@@ -1,3 +1,6 @@
+# 2.5.2-PTB24 / Prerelease
+- Updated to Vue 3.5.3
+
 # 2.5.2-PTB23 / Prerelease
 - refactor(remote-connect): add app store links
 - Updated remote connection UI
