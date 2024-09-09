@@ -1,3 +1,7 @@
+# 2.5.2-PTB23 / Prerelease
+- refactor(remote-connect): add app store links
+- Updated remote connection UI
+
 # 2.5.2-PTB22
 - refactor(applemusic): fix missing volume percentage in miniplayer
 
