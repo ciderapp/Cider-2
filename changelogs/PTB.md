@@ -1,3 +1,8 @@
+# 2.5.2-PTB25 / Prerelease
+- Added notification for Plugin and Theme updates on startup
+  - Can be disabled under Settings / Extensions
+- Added Updates section to the in-app Marketplace
+
 # 2.5.2-PTB24 / Prerelease
 - Updated to Vue 3.5.3
 
