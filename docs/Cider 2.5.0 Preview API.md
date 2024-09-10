@@ -20,6 +20,18 @@ Base URL: `http://localhost:10767/`
 - `/queue`
   - Gets the current queue.
 
+- `/shuffle-mode`
+  - Gets the current shuffle state.
+
+- `/repeat-mode`
+  - Gets the current repeat state.
+
+- `/api/v1/playback/autoplay`
+  - Gets autoplay state
+ 
+- `/api/v1/playback/library-status`
+  - Returns favorite and library added states
+
 - `/volume`
   - Gets the current volume level.
   - Returns: `{ volume: string }`
@@ -80,6 +92,10 @@ Base URL: `http://localhost:10767/`
   - `returnQueue`(?) - Returns the queue after the request has finished (slower)
 
 - `/queue/change-to-index` - Jumps to and plays the index requested. Takes `index` (number) in body
+
+- `/queue/remove-by-index` - Removes queue item by index. Takes `index` (number) in body
+- 
+- `/queue/clear-queue` - Clears the queue
 
 - `/toggle-repeat`
   - Toggles the repeat mode.
