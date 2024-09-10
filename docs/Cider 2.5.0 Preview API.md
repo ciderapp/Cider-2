@@ -61,6 +61,9 @@ Base URL: `http://localhost:10767/`
 
 - `/play-url`
   - Takes a `url` in body and will immediately play the item or track associated with the URL
+
+- `/play-item-href`
+  - Takes a `href` in body and will immediately play the item or track associated with the API href
  
 - `/play-later`
   - Takes `id` and `type`
