@@ -1,3 +1,6 @@
+# 2.5.2-PTB32
+- Up-to-date with stable
+
 # 2.5.2-PTB25 / Prerelease
 - Added notification for Plugin and Theme updates on startup
   - Can be disabled under Settings / Extensions
