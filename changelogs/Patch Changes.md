@@ -1,3 +1,6 @@
+# 2.5.2 Patch 5
+- Fixed Suggest Less not working properly on now playing
+
 # 2.5.2 Patch 4
 - Fixes New Playlist Folder option not doing anything
 
