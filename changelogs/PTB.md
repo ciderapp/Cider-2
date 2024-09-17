@@ -1,3 +1,9 @@
+# 2.5.3-PTB34
+- Start of 2.5.3 development period
+- Fixes Curator items shelf in Groupings not being visible
+- Added support for showing multiple artists artwork in Discord RPC
+- Discord RPC now uses iCloud Artwork
+
 # 2.5.2-PTB32
 - Up-to-date with stable
 
