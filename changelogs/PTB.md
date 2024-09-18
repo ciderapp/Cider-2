@@ -1,3 +1,6 @@
+# 2.5.3-PTB35
+- Animated Artwork quality is increased at all times and no longer randomly dips down
+
 # 2.5.3-PTB34
 - Start of 2.5.3 development period
 - Fixes Curator items shelf in Groupings not being visible
