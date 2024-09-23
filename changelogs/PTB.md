@@ -1,3 +1,11 @@
+# 2.5.3-PTB36
+- Revamped Settings UI
+  - Searchable
+  - Still very much WIP
+- fix(search): fixed search suggestion menu
+- refactor(NIcon): added [data-icon-name] attribute
+- fix(playlist-listings): disregard empty responses
+
 # 2.5.3-PTB35
 - Animated Artwork quality is increased at all times and no longer randomly dips down
 
