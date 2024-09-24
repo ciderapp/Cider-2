@@ -1,3 +1,6 @@
+# 2.5.3-PTB39
+- fix(library-songs): fixed some fields being stuck when sorting
+
 # 2.5.3-PTB36
 - Revamped Settings UI
   - Searchable
