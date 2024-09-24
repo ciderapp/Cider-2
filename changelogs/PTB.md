@@ -1,3 +1,10 @@
+# 2.5.3-PTB40
+- feat(sidebar): sidebar playlists will now persist between sessions
+- feat(pages): added resume from last session option for startup page
+- fix(powerswoosh): fixed play button not working
+- fix(updates): fixed channel selection not saving
+- refactor(updates): made PTB a top level channel like stable
+
 # 2.5.3-PTB39
 - fix(library-songs): fixed some fields being stuck when sorting
 
