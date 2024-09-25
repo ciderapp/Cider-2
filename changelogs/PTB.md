@@ -1,3 +1,6 @@
+# 2.5.3-PTB44
+- Changes to artwork formatting, should result in faster artwork loading.
+
 # 2.5.3-PTB40
 - feat(sidebar): sidebar playlist folder opened state will now persist between sessions
 - feat(pages): added resume from last session option for startup page
