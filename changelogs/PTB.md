@@ -1,3 +1,7 @@
+# 2.5.3-PTB46
+- Fixed an issue where drag and drop would not work properly if an item was dragged while it was playing
+- flatten settings when searching, individual settings lines will now be shown instead of their entire section
+
 # 2.5.3-PTB44
 - Changes to artwork formatting, should result in faster artwork loading.
 
