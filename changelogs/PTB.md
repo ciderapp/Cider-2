@@ -1,3 +1,6 @@
+# 2.5.3-PTB57 / 2.5.3 (Patch 2)
+- Fixes an issue where Cider could get stuck and frozen in a loop if "Resume from last page" is enabled and the last page was the OOBE login step
+
 # 2.5.3-PTB54
 - Marketplace descriptions now use markdown
 - Fix adaptive play-menu button accents and implement functionality for RichAlbumGridItem (#502)
