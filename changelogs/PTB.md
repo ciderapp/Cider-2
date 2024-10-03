@@ -1,3 +1,6 @@
+# 2.5.3-PTB59
+- Comfy style player now supports the Show Quick Actions option
+
 # 2.5.3-PTB57 / 2.5.3 (Patch 2)
 - Fixes an issue where Cider could get stuck and frozen in a loop if "Resume from last page" is enabled and the last page was the OOBE login step
 
