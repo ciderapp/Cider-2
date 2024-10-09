@@ -1,3 +1,7 @@
+# 2.5.3-PTB63
+- Updated Editorial Banners
+- Updated Marketplace Details Panel
+
 # 2.5.3-PTB59
 - Comfy style player now supports the Show Quick Actions option
 
