@@ -1,4 +1,4 @@
-# 2.5.3-PTB63
+# 2.5.4-PTB63
 - Updated Editorial Banners
 - Updated Marketplace Details Panel
 
