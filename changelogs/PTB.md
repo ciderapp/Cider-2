@@ -1,3 +1,8 @@
+# 2.5.4-PTB64
+- The in-app Custom CSS now processes its CSS through the theme system
+  - Nested declarations are now supported
+  - Automatic `!important` handling
+   
 # 2.5.4-PTB63
 - Updated Editorial Banners
 - Updated Marketplace Details Panel
