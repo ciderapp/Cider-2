@@ -1,3 +1,6 @@
+# 2.5.4-PTB65
+- Fixed install button not being accessable, preventing updates.
+
 # 2.5.4-PTB64
 - The in-app Custom CSS now processes its CSS through the theme system
   - Nested declarations are now supported
