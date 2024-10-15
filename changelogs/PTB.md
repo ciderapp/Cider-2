@@ -1,3 +1,6 @@
+# 2.5.4-PTB70
+- fix(compact player): fixed background with HDR enabled
+
 # 2.5.4-PTB65
 - Fixed install button not being accessable, preventing updates.
 
