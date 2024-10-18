@@ -1,3 +1,6 @@
+# 2.5.4-PTB71
+- fix(heroitem): empty items will no longer display
+
 # 2.5.4-PTB70
 - fix(compact player): fixed background with HDR enabled
 
