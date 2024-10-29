@@ -1,4 +1,4 @@
-# 2.5.4-PTB74
+# 2.5.4-PTB74 / 2.5.4 Patch 3
 - Fixed card type items having blurry artwork
 - Smarter codec selection for animated artwork
 
