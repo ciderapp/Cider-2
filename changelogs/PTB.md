@@ -1,3 +1,7 @@
+# 2.5.4-PTB74
+- Fixed card type items having blurry artwork
+- Smarter codec selection for animated artwork
+
 # 2.5.4-PTB71
 - fix(heroitem): empty items will no longer display
 
