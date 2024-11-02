@@ -39,9 +39,15 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
+      - uses: jamestrousdale/github-app-jwt-token@0.1.4
+        id: gen
+        with:
+          app-id: '363587'
+          private-key: ${{ secrets.APP_KEY }}
+          
       - uses: actions/add-to-project@v1.0.1
         with:
           project-url: https://github.com/orgs/ciderapp/projects/5
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          github-token: ${{ steps.gen.outputs.access-token }}
           labeled: bug, needs-triage
           label-operator: OR
