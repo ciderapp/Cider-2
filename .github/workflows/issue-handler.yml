@@ -49,7 +49,6 @@ jobs:
           include-title: 1
 
   add-to-project:
-    name: Add issue to project
     runs-on: ubuntu-latest
     needs: token
     steps:
