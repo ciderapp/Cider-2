@@ -56,7 +56,8 @@ jobs:
           app-id: '363587'
           private-key: ${{ secrets.APP_KEY }}
           
-      - uses: vanZeben/project-triage@v1
+      - run: gh issue edit "$NUMBER" --add-project "Cider - Bug Reports"
         with:
-          projectName: 'Cider - Bug Reports'
-          token: ${{ steps.gen.outputs.access-token }}
+          GH_TOKEN: ${{ steps.gen.outputs.access-token }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
