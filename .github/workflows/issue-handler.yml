@@ -57,7 +57,7 @@ jobs:
           private-key: ${{ secrets.APP_KEY }}
           
       - run: gh issue edit "$NUMBER" --add-project "Cider - Bug Reports"
-        with:
+        env:
           GH_TOKEN: ${{ steps.gen.outputs.access-token }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
