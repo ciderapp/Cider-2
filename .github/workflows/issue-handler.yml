@@ -7,12 +7,24 @@ permissions:
   contents: read
 
 jobs:
+  token:
+    runs-on: ubuntu-latest
+    outputs:
+      token: ${{ steps.gen.outputs.access-token }}
+    steps:
+      - uses: jamestrousdale/github-app-jwt-token@0.1.4
+        id: gen
+        with:
+          app-id: '363587'
+          private-key: ${{ secrets.APP_KEY }}
+
   first-interaction:
     runs-on: ubuntu-latest
+    needs: token
     steps:
       - uses: actions/first-interaction@v1.3.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ needs.token.outputs.token }}
           issue-message: |-
             Hello @${{github.actor}} :wave:
 
@@ -26,10 +38,11 @@ jobs:
 
   auto-labeler:
     runs-on: ubuntu-latest
+    needs: token
     steps:
       - uses: github/issue-labeler@v3.4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ needs.token.outputs.token }}
           configuration-path: .github/labeler.yml
           enable-versioned-regex: 0
           sync-labels: 1
@@ -38,16 +51,11 @@ jobs:
   add-to-project:
     name: Add issue to project
     runs-on: ubuntu-latest
+    needs: token
     steps:
-      - uses: jamestrousdale/github-app-jwt-token@0.1.4
-        id: gen
-        with:
-          app-id: '363587'
-          private-key: ${{ secrets.APP_KEY }}
-          
       - uses: actions/add-to-project@v1.0.2
         with:
           project-url: https://github.com/orgs/ciderapp/projects/5
-          github-token: ${{ steps.gen.outputs.access-token }}
+          github-token: ${{ needs.token.outputs.token }}
           labeled: bug, needs-triage
           label-operator: OR
