@@ -18,7 +18,7 @@ jobs:
           
       - uses: actions/first-interaction@v1.3.0
         with:
-          repo-token: ${{ steps.gen.outputs.token }}
+          repo-token: ${{ steps.gen.outputs.access-token }}
           issue-message: |-
             Hello @${{github.actor}} :wave:
 
@@ -41,7 +41,7 @@ jobs:
           
       - uses: github/issue-labeler@v3.4
         with:
-          repo-token: ${{ steps.gen.outputs.token }}
+          repo-token: ${{ steps.gen.outputs.access-token }}
           configuration-path: .github/labeler.yml
           enable-versioned-regex: 0
           sync-labels: 1
@@ -59,6 +59,6 @@ jobs:
       - uses: actions/add-to-project@v1.0.2
         with:
           project-url: https://github.com/orgs/ciderapp/projects/5
-          github-token: ${{ steps.gen.outputs.token }}
+          github-token: ${{ steps.gen.outputs.access-token }}
           labeled: bug, needs-triage
           label-operator: OR
