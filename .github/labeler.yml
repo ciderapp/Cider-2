@@ -1,30 +1,30 @@
 'backend: genten':
-  - '(genten|Genten)'
-  - '(linux|Linux)'
+  - '/\bgenten\b/i'
+  - '/\blinux\b/i'
   - '(pacman|deb|appimage)'
-  - '(mac|macOS|OSX)'
+  - '/\bmac\b/i'
 
 'platform: linux':
-  - '(linux|Linux)'
+  - '/\blinux\b/i'
   - '(pacman|deb|appimage|rpm)'
 
 'platform: macos':
-  - '(mac|macOS|OSX)'
+  - '/\bmac\b/i'
   - '(dmg)'
 
 'backend: dotnet':
-  - '(windows|Windows)'
-  - '(dotnet)'
-  - '(microsoft|Microsoft)'
+  - '/\bwindows\b/i'
+  - '/\bmicrosoft\b/i'
 
 'feat: lastfm':
-  - '(lastfm|lastFM|LastFM)'
+  - '/\blastfm\b/i'
 
 'feat: discordrpc':
-  - '(discordRPC|rpc)'
+  - '/\bdiscordrpc\b/i'
 
 'iz: websocket':
-  - '(socket|ws)'
+  - '/\bsocket\b/i'
+  - '/\bws\b/i'
 
 'feat: lyrics':
-  - '(lyrics|lyric)'
+  - '/\blyric\b/i'
