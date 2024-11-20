@@ -1,4 +1,4 @@
-"backend: genten":
+'backend: genten':
   - '(genten|Genten)'
   - '(linux|Linux)'
   - '(pacman|deb|appimage)'
@@ -12,19 +12,19 @@
   - '(mac|macOS|OSX)'
   - '(dmg)'
 
-"backend: dotnet":
+'backend: dotnet':
   - '(windows|Windows)'
   - '(dotnet)'
   - '(microsoft|Microsoft)'
 
-"feat: lastfm":
+'feat: lastfm':
   - '(lastfm|lastFM|LastFM)'
 
-"feat: discordrpc":
+'feat: discordrpc':
   - '(discordRPC|rpc)'
 
-"iz: websocket":
+'iz: websocket':
   - '(socket|ws)'
 
-"feat: lyrics":
+'feat: lyrics':
   - '(lyrics|lyric)'
