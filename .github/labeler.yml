@@ -1,4 +1,30 @@
-"👥 team: connect":
-  - '(connect|Connect)'
-  - '(saki|Saki)'
+"backend: genten":
+  - '(genten|Genten)'
+  - '(linux|Linux)'
+  - '(pacman|deb|appimage)'
+  - '(mac|macOS|OSX)'
 
+'platform: linux':
+  - '(linux|Linux)'
+  - '(pacman|deb|appimage|rpm)'
+
+'platform: macos':
+  - '(mac|macOS|OSX)'
+  - '(dmg)'
+
+"backend: dotnet":
+  - '(windows|Windows)'
+  - '(dotnet)'
+  - '(microsoft|Microsoft)'
+
+"feat: lastfm":
+  - '(lastfm|lastFM|LastFM)'
+
+"feat: discordrpc":
+  - '(discordRPC|rpc)'
+
+"iz: websocket":
+  - '(socket|ws)'
+
+"feat: lyrics":
+  - '(lyrics|lyric)'
