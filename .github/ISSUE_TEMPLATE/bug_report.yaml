@@ -35,7 +35,7 @@ body:
     attributes:
       label: How did you download Cider?
       options:
-        - itch.io
+        - 'itch.io'
         - Microsoft Store
         - Discord (Supporter Releases)
         - Cider Taproom
