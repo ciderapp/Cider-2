@@ -33,9 +33,12 @@ body:
   - type: input
     id: source
     attributes:
-      label: Download Source
-      description: The source where you downloaded Cider from (Itch / Discord / Microsoft Store etc.)
-      placeholder: Itch
+      label: How did you download Cider?
+      options:
+        - itch.io
+        - Microsoft Store
+        - Discord (Supporter Releases)
+        - Cider Taproom
     validations:
       required: true
 
@@ -52,11 +55,6 @@ body:
     attributes:
       label: Commit Hash
     
-  - type: input
-    id: instanceid
-    attributes:
-      label: Connect Instance ID
-
   - type: input
     id: timestamp
     attributes:
