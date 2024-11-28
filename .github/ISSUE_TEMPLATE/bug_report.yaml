@@ -30,7 +30,7 @@ body:
         ## Environment Information
         Most of this information should be filled by the in-app bug report button. If you are not submitting an issue using that, please try to or fill out the required fields with what knowledge you have.
 
-  - type: input
+  - type: dropdown
     id: source
     attributes:
       label: How did you download Cider?
