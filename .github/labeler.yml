@@ -1,3 +1,16 @@
+'feat: lastfm':
+  - '/\blastfm\b/i'
+
+'feat: discordrpc':
+  - '/\bdiscordrpc\b/i'
+
+'iz: websocket':
+  - '/\bsocket\b/i'
+  - '/\bws\b/i'
+
+'feat: lyrics':
+  - '/\blyric\b/i'
+
 'backend: genten':
   - '/\bgenten\b/i'
   - '/\blinux\b/i'
@@ -15,16 +28,3 @@
 'backend: dotnet':
   - '/\bwindows\b/i'
   - '/\bmicrosoft\b/i'
-
-'feat: lastfm':
-  - '/\blastfm\b/i'
-
-'feat: discordrpc':
-  - '/\bdiscordrpc\b/i'
-
-'iz: websocket':
-  - '/\bsocket\b/i'
-  - '/\bws\b/i'
-
-'feat: lyrics':
-  - '/\blyric\b/i'
