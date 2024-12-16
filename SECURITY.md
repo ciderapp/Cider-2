@@ -6,14 +6,16 @@ These are our supported versions. Please do not report security issues present o
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.5.1   | :white_check_mark: |
-| 2.5.0   | :white_check_mark: |
+| 2.6.0   | :white_check_mark: |
+| 2.5.3   | :white_check_mark: |
+| 2.5.1   | :x: |
+| 2.5.0   | :x: |
 | 2.4.2   | :x: | 
 | 2.4.1   | :x: |
 | 2.4.0   | :x: |
 | 2.3.1   | :x: |
-| 2.3.0   | :x:                |
-| < 2.2.0   | :x:                |
+| 2.3.0   | :x: |
+| < 2.2.0   | :x: |
 
 ## Reporting a Vulnerability
 
