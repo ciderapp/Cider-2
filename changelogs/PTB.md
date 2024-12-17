@@ -1,3 +1,7 @@
+# 2.5.4-PTB77
+- CAP v146
+  - Enhances compatibility with planar and non-dynamic headphone drivers (electrostatic headphone users should still leave CAP **disabled**.
+
 # 2.5.4-PTB75
 - Added new keybind for Miniplayer (default CTRL/Meta + K)
 
