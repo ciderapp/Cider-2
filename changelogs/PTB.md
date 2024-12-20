@@ -1,3 +1,9 @@
+# 2.6.0-PTB84
+- Resolved an issue that was causing excessive lag in Sing Lyrics
+- Added Settings / Advanced / Client Settings
+  - Allows easy access to client framework specific settings.
+  - Currently only on Windows. macOS and Linux will have support soon.
+
 # 2.5.4-PTB78
 - Added recent playlists under "Add to playlist..." in context menus
 
