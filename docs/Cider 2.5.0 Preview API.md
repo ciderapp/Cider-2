@@ -1,5 +1,9 @@
 
 Base URL: `http://localhost:10767/`
+
+> [!IMPORTANT]  
+> Note, clients with '**Require API Tokens**' enabled (enabled by default); will need a `apptoken` header added to their request to be fufilled. These tokens can be generated within Connectivity > Manage External Application Access
+
 # Playback API Endpoints Documentation
 
 ## `/api/v1/playback`
