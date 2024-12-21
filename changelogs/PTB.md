@@ -1,6 +1,6 @@
 # 2.6.0-PTB86
 - Genten specific client settings have been added.
-- Fixed some <svg> icon's color being stuck to white
+- Fixed some <svg> icons color being stuck to white
 
 # 2.6.0-PTB84
 - Resolved an issue that was causing excessive lag in Sing Lyrics
