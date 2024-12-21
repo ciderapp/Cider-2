@@ -1,3 +1,6 @@
+# 2.6.0-PTB86
+- Genten specific client settings have been added.
+
 # 2.6.0-PTB84
 - Resolved an issue that was causing excessive lag in Sing Lyrics
 - Added Settings / Advanced / Client Settings
