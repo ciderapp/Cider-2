@@ -1,3 +1,9 @@
+# 2.6.0-PTB88
+- Improved track list logic
+  - Changing between songs within the same playlist is now much faster
+  - Improved handling of large playlists
+  - Added warning that it may take more time initially for a large playlist to load
+
 # 2.6.0-PTB86
 - Genten specific client settings have been added.
 - Fixed some <svg> icons color being stuck to white
