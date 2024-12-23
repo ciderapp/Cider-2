@@ -1,3 +1,6 @@
+# 2.6.0-PTB89
+- Fixed notifications for PTB not working
+
 # 2.6.0-PTB88
 - Improved track list logic
   - Changing between songs within the same playlist is now much faster
