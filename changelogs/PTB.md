@@ -1,4 +1,4 @@
-# 2.6.0-PTB94
+# 2.6.0-PTB94 / Patch 5
 - Fixed issue introduced with track logic update that prevented sorted and filtered playlists from playing in the right order.
 
 # 2.6.0-PTB89
