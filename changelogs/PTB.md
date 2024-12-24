@@ -1,3 +1,6 @@
+# 2.6.0-PTB94
+- Fixed issue introduced with track logic update that prevented sorted and filtered playlists from playing in the right order.
+
 # 2.6.0-PTB89
 - Fixed notifications for PTB not working
 
