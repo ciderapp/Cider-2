@@ -1,3 +1,7 @@
+# 2.6.0-PTB100
+- Added Remove from Playlist to playlist tracks
+- Fixed switching tracks in playlist not being as quick as it should be
+
 # 2.6.0-PTB99
 - Preview of in-development new playlist and album pages
   - Faster loading times
