@@ -1,3 +1,12 @@
+# 2.6.0-PTB99
+- Preview of in-development new playlist and album pages
+  - Faster loading times
+  - Playlist track order can now be modified inline instead of on a different page
+  - (Playlists only) Have an option in the menu to revert temporarily to the current playlist page
+  - Library Albums currently still use the current page
+  - Can be disabled during its preview period under Experimental settings
+  - Currently missing a few playlist features, namely sorting.
+
 # 2.6.0-PTB94 / Patch 5
 - Fixed issue introduced with track logic update that prevented sorted and filtered playlists from playing in the right order.
 
