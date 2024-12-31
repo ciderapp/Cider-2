@@ -1,3 +1,7 @@
+# 2.6.0-PTB102
+- Multiple tracks can now all be removed at once from playlists
+- Added Playlist info editor
+
 # 2.6.0-PTB100
 - Added Remove from Playlist to playlist tracks
 - Fixed switching tracks in playlist not being as quick as it should be
