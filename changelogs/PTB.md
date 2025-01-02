@@ -1,3 +1,9 @@
+# 2.6.0-PTB107
+[Albums]
+- Added popularity indicator
+- Multiple artists will now show on a track
+- More changes to curator notes
+
 # 2.6.0-PTB106
 [Playlists + Albums]
 - Library Albums now use the new albums page
