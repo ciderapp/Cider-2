@@ -1,3 +1,9 @@
+# 2.6.0-PTB105
+[Playlists + Albums]
+- New expanded description "blurb" UI
+- Added Apple Digital Master badging to albums
+- Added Playlist track suggestions
+
 # 2.6.0-PTB102
 - Multiple tracks can now all be removed at once from playlists
 - Added Playlist info editor
