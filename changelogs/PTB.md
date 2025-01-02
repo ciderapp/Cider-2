@@ -1,3 +1,11 @@
+# 2.6.0-PTB106
+[Playlists + Albums]
+- Library Albums now use the new albums page
+- Playlist track suggestions that get added now get removed from the suggestion list to allow new suggestions to take their place
+- Added unavailable track status
+- Playlist tracks now show artists and albums
+- Playlist page responsive layout has been improved
+
 # 2.6.0-PTB105
 [Playlists + Albums]
 - New expanded description "blurb" UI
