@@ -1,3 +1,7 @@
+# 2.6.0-PTB112
+[Playlists]
+- BPM and Key added to playlist tracks (when enabled)
+
 # 2.6.0-PTB107
 [Albums]
 - Added popularity indicator
