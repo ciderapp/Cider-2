@@ -1,3 +1,7 @@
+# 2.6.0-PTB117
+- Restored UI immersive background settings
+- Fixed an issue where playlists would not load correctly from previous PTB
+
 # 2.6.0-PTB112
 [Playlists]
 - BPM and Key added to playlist tracks (when enabled)
