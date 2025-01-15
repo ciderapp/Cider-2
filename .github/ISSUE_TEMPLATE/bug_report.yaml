@@ -39,7 +39,7 @@ body:
       options:
         - 'itch.io'
         - 'Microsoft Store'
-        - [Taproom](https://cider.sh/taproom)
+        - 'Taproom'
     validations:
       required: true
 
