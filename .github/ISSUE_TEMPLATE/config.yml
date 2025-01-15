@@ -2,13 +2,13 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Support Disclaimer
-    url: https://docs.cider.sh/support/disclaimer
+    url: https://cider.sh/docs/client/disclaimer
     about: Please read this before creating any issues.
   - name: Discord Support
     url: https://discord.com/invite/AppleMusic
     about: For quick support or if you have a feature you would like to request.
   - name: Cider Documentation
-    url: https://docs.cider.sh/support/faqs
+    url: https://cider.sh/docs/client/faqs
     about: In most cases, these troubleshooting tips can resolve basic issues. Try them out before opening an issue.
   - name: GitHub Issues
     url: https://github.com/ciderapp/Cider-2/issues
