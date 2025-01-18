@@ -1,3 +1,11 @@
+# 2.6.1-PTB121
+- Split Cider Audio Labs from Cider Audio
+  - More Cider Audio Labs presets by Maikiwi are now available from the Marketplace and are updateable independant from Cider itself
+  - If you were using a preset that has been moved to the marketplace you will be prompted on startup to download the plugin to restore your previous settings
+- Fixed issue where Cider Audio "Atmosphere Realizers" were not localizing properly.
+- Fixed an issue where pages on startup would not fully load their content due to an invalid language query
+- Marketplace listings are now cached on client
+
 # 2.6.0-PTB117
 - Restored UI immersive background settings
 - Fixed an issue where playlists would not load correctly from previous PTB
