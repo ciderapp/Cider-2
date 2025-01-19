@@ -1,5 +1,7 @@
 # 2.6.1-PTB122
 - Implemented search and sorting in new Albums and Playlist pages
+- Added disc numbers to albums
+  - Discs can be collapsed
 
 # 2.6.1-PTB121
 - Split Cider Audio Labs from Cider Audio
