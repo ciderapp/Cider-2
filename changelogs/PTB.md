@@ -1,3 +1,6 @@
+# 2.6.1-PTB122
+- Implemented search and sorting in new Albums and Playlist pages
+
 # 2.6.1-PTB121
 - Split Cider Audio Labs from Cider Audio
   - More Cider Audio Labs presets by Maikiwi are now available from the Marketplace and are updateable independant from Cider itself
