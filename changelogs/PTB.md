@@ -1,4 +1,4 @@
-# 2.6.1-PTB123
+# 2.6.1-PTB125
 - Improved data fetching times for Albums and Playlists
 
 # 2.6.1-PTB122
