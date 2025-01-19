@@ -1,3 +1,6 @@
+# 2.6.1-PTB123
+- Improved data fetching times for Albums and Playlists
+
 # 2.6.1-PTB122
 - Implemented search and sorting in new Albums and Playlist pages
 - Added disc numbers to albums
