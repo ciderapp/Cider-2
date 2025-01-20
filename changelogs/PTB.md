@@ -1,3 +1,6 @@
+# 2.6.1-PTB131
+- Fixes audio normalization
+
 # 2.6.1-PTB125
 - Improved data fetching times for Albums and Playlists
 
