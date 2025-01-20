@@ -1,3 +1,7 @@
+# 2.6.1-PTB134
+- Fixes Play and Shuffle buttons on type `library-albums` and `library-playlists` in their respective pages
+- Fixed playlist track info proportions. Albums and Artists were too short.
+
 # 2.6.1-PTB131
 - Fixes audio normalization
 
