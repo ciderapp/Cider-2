@@ -1,6 +1,5 @@
 name: 'Close stale issues and PRs'
 on:
-  push:
   schedule:
     - cron: '30 5 * * *'
 
@@ -26,5 +25,5 @@ jobs:
           close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
           days-before-issue-stale: 14
           days-before-issue-close: 7
-          exempt-issue-labels: "security,status/confirmed,stale/exempt"
+          exempt-issue-labels: "security,status/confirmed,stale/exempt,accessibility/scaling"
           exempt-all-assignees: true
