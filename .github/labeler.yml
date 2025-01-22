@@ -11,20 +11,10 @@
 'feat: lyrics':
   - '/\blyric\b/i'
 
-'backend: genten':
-  - '/\bgenten\b/i'
-  - '/\blinux\b/i'
-  - '(pacman|deb|appimage)'
-  - '/\bmac\b/i'
+'feat: audiolab':
+  - '/\baudiolab\b/i'
+  - '/\beq\b/i'
+  - '/\bcap\b/i'
 
-'platform: linux':
-  - '/\blinux\b/i'
-  - '(pacman|deb|appimage|rpm)'
-
-'platform: macos':
-  - '/\bmac\b/i'
-  - '(dmg)'
-
-'backend: dotnet':
-  - '/\bwindows\b/i'
-  - '/\bmicrosoft\b/i'
+'app: playback':
+  - '/\bplay\b/i'
