@@ -1,5 +1,6 @@
 name: 'Close stale issues and PRs'
 on:
+  push:
   schedule:
     - cron: '30 5 * * *'
 
@@ -20,7 +21,7 @@ jobs:
       - uses: actions/stale@v9
         with:
           repo-token: ${{ steps.gen.outputs.access-token }}
-          stale-issue-label: 'stale/wontfix,status/moreinfo,status/unactionable,status/unreproducible'
+          stale-issue-label: 'stale/wontfix'
           stale-issue-message: 'This issue is stale. If this issue is still occurring and you are on a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please leave any comment (e.g. "bump") within the next 7 days and the issue will remain open. If you have any new or additional information that may help us resolve your issue, please include it with your comment.'
           close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
           days-before-issue-stale: 14
