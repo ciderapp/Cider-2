@@ -1,3 +1,7 @@
+# 2.6.1-PTB137
+- Fixed editorial headers on library albums not appearing
+- Improved library albums catalog data
+
 # 2.6.1-PTB134
 - Fixes Play and Shuffle buttons on type `library-albums` and `library-playlists` in their respective pages
 - Fixed playlist track info proportions. Albums and Artists were too short.
