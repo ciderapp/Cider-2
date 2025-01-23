@@ -30,22 +30,32 @@ jobs:
 
             Thanks again and we hope you enjoy the app! :smiley:
 
-  auto-labeler:
+  label-component:
     runs-on: ubuntu-latest
+
     steps:
       - uses: jamestrousdale/github-app-jwt-token@0.1.4
         id: gen
         with:
           app-id: '363587'
           private-key: ${{ secrets.APP_KEY }}
-          
-      - uses: github/issue-labeler@v3.4
+
+      - uses: actions/checkout@v4.2.2
         with:
-          repo-token: ${{ steps.gen.outputs.access-token }}
-          configuration-path: .github/labeler.yml
-          enable-versioned-regex: 0
-          sync-labels: 1
-          include-title: 1
+          sparse-checkout: |
+            .github
+
+      - name: Parse issue form
+        uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/bug.yaml
+
+      - name: Set labels based on animals field
+        uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
+        with:
+          issue-form: ${{ steps.issue-parser.outputs.jsonString }}
+          token: ${{ steps.gen.outputs.access-token }}
 
   add-to-project:
     runs-on: ubuntu-latest

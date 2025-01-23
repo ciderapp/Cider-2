@@ -1,7 +1,6 @@
 name: Bug Report
 description: If you encounter an issue whilst using our app, please use this template to help improve the app.
-labels: ["bug"]
-assignees: []
+type: Bug
 body:
   - type: markdown
     attributes:
@@ -10,6 +9,8 @@ body:
         Thanks for taking the time to fill out this bug report! 
         Before you start, if you have a feature request please forward it to our [Discord server](https://discord.com/invite/AppleMusic), where it can be discussed within the community.
         *Opening Feature Requests on GitHub will be closed and ignored. You have been warned!*
+
+  # Checklist to filter out invalid bug reports     
   - type: checkboxes
     attributes:
       label: Preflight Checklist
@@ -25,13 +26,15 @@ body:
           required: true
         - label: I have verified that my issue is with a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md) and that it is with the desktop app (Support for other areas can be found in our Discord / on the appropriate repo).
           required: true
-          
+
+  # Guide
   - type: markdown
     attributes:
       value: |
         ## Environment Information
         Most of this information should be filled by the in-app bug report button. If you are not submitting an issue using that, please try to or fill out the required fields with what knowledge you have.
 
+  # Triage 1. Download Source
   - type: dropdown
     id: source
     attributes:
@@ -43,6 +46,14 @@ body:
     validations:
       required: true
 
+  # Triage 2. App Information
+  - type: input
+    id: app-info
+    attributes:
+      label: App Information
+      description: Should be auto-filled when opened from the app, or can be obtained from Copy Build Info button in the About page.
+
+  # Triage 3. OS Information
   - type: dropdown
     id: os
     attributes:
@@ -63,6 +74,36 @@ body:
     validations:
       required: true
 
+  # Triage 4. Issue Type
+  - type: dropdown
+    id: type
+    attributes:
+      label: How would you describe your issue?
+      description: |
+        Please to the best of your ability give us a type of issue you are encountering. (Select all that apply)
+        - Frontend - Issues with the interface, playback, library or any media. Mainly anything you directly interact with.
+        - Backend - Issues with the app interacting with your OS, such as notifications, media keys, etc.
+        - Integrations - Issues with third-party services such as LastFM, Discord etc.
+        - Features - Issues with specific features such as AudioLab, Lyrics, etc.
+        - Security - Issues with the security of the app.
+        - Accessibility - Issues with the UI scaling, or any other accessibility features.
+        - Dev - For plugin/theme developers: Issues with the API, Websocket, etc. 
+      multiple: true
+      options:
+        - 'Frontend'
+        - 'Backend (Windows)'
+        - 'Backend (Linux / macOS)'
+        - 'Integration: LastFM'
+        - 'Integration: DiscordRPC'
+        - 'Feature: AudioLab'
+        - 'Feature: Lyrics'
+        - 'Security'
+        - 'Accessibility'
+        - 'Dev: Websocket'
+    validations:
+      required: true
+
+  # Triage 4. App Version
   - type: input
     id: commit
     attributes:

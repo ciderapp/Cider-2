@@ -1,0 +1,35 @@
+policy:
+  - section:
+      - id: [os]
+        block-list: []
+        label:
+          - name: 'platform: windows'
+            keys: ['Windows']
+          - name: 'platform: linux'
+            keys: ['Linux']
+          - name: 'platform: macos'
+            keys: ['macOS']
+  - section: 
+      - id: [type]
+        block-list: []
+        label:
+          - name: 'pkg/frontend'
+            keys: ['Frontend']
+          - name: 'pkg/dotnet-client'
+            keys: ['Backend (Windows)']
+          - name: 'pkg/genten-client'
+            keys: ['Backend (Linux / macOS)']
+          - name: 'feat: lastfm'
+            keys: ['Integration: LastFM']
+          - name: 'feat: discordrpc'
+            keys: ['Integration: DiscordRPC']
+          - name: 'feat: audiolab'
+            keys: ['Feature: AudioLab']
+          - name: 'feat: lyrics'
+            keys: ['Feature: Lyrics']
+          - name: 'security'
+            keys: ['Security']
+          - name: 'accessibility/scaling'
+            keys: ['Accessibility']
+          - name: 'iz: websocket'
+            keys: ['Dev: Websocket']
