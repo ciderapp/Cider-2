@@ -4,6 +4,7 @@ on:
 
 permissions:
   issues: read
+  contents: read
 
 jobs:
   first-interaction:
@@ -41,10 +42,6 @@ jobs:
           private-key: ${{ secrets.APP_KEY }}
 
       - uses: actions/checkout@v4.2.2
-        with:
-          token: ${{ steps.gen.outputs.access-token }}
-          sparse-checkout: |
-            .github
 
       - name: Parse issue form
         uses: stefanbuck/github-issue-parser@v3
