@@ -1,7 +1,7 @@
 policy:
-  - template: ['bug.yaml']
+  - template: ['bug.yml']
     section:
-      - id: [os]
+      - id: [type, os]
         block-list: []
         label:
           - name: 'platform: windows'
@@ -10,9 +10,6 @@ policy:
             keys: ['Linux']
           - name: 'platform: macos'
             keys: ['macOS']
-      - id: [type, os]
-        block-list: []
-        label:
           - name: 'pkg/frontend'
             keys: ['Frontend']
           - name: 'pkg/dotnet-client'
