@@ -1,6 +1,7 @@
 policy:
-  - template: ['bug.yml']
-    section:
+  - section:
+
+      # Type and OS labels
       - id: ['type', 'os']
         block-list: []
         label:
