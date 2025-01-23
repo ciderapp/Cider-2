@@ -3,11 +3,11 @@ on:
     types: [opened]
 
 permissions:
-  issues: write
-  contents: read
+  issues: read
 
 jobs:
   first-interaction:
+    name: First Interaction
     runs-on: ubuntu-latest
     steps:
       - uses: jamestrousdale/github-app-jwt-token@0.1.4
@@ -31,8 +31,8 @@ jobs:
             Thanks again and we hope you enjoy the app! :smiley:
 
   label-component:
+    name: Automatically Label Issue
     runs-on: ubuntu-latest
-
     steps:
       - uses: jamestrousdale/github-app-jwt-token@0.1.4
         id: gen
@@ -42,6 +42,7 @@ jobs:
 
       - uses: actions/checkout@v4.2.2
         with:
+          token: ${{ steps.gen.outputs.access-token }}
           sparse-checkout: |
             .github
 
@@ -58,6 +59,7 @@ jobs:
           token: ${{ steps.gen.outputs.access-token }}
 
   add-to-project:
+    name: Add Issue to Project
     runs-on: ubuntu-latest
     steps:
       - uses: jamestrousdale/github-app-jwt-token@0.1.4
