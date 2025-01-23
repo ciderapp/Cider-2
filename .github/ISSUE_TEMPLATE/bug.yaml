@@ -92,8 +92,7 @@ body:
       default: 0
       options:
         - 'Frontend'
-        - 'Backend (Windows)'
-        - 'Backend (macOS / Linux)'
+        - 'Backend'
         - 'Integration: LastFM'
         - 'Integration: DiscordRPC'
         - 'Feature: AudioLab'
