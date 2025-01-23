@@ -44,13 +44,13 @@ jobs:
       - uses: actions/checkout@v4.2.2
 
       - name: Parse issue form
-        uses: stefanbuck/github-issue-parser@v3
+        uses: stefanbuck/github-issue-parser@v3.2.1
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/bug.yml
 
       - name: Set the Labels
-        uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
+        uses: redhat-plumbers-in-action/advanced-issue-labeler@v3.2.0
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
           token: ${{ steps.gen.outputs.access-token }}

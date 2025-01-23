@@ -1,7 +1,7 @@
 policy:
   - template: ['bug.yml']
     section:
-      - id: [type, os]
+      - id: ['type', 'os']
         block-list: []
         label:
           - name: 'platform: windows'
