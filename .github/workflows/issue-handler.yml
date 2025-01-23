@@ -1,6 +1,6 @@
 on:
   issues:
-    types: [opened, edited]
+    types: [opened]
 
 permissions:
   issues: read

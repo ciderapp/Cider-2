@@ -20,10 +20,30 @@ jobs:
       - uses: actions/stale@v9
         with:
           repo-token: ${{ steps.gen.outputs.access-token }}
-          stale-issue-label: 'stale/wontfix'
-          stale-issue-message: 'This issue is stale. If this issue is still occurring and you are on a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please leave any comment (e.g. "bump") within the next 7 days and the issue will remain open. If you have any new or additional information that may help us resolve your issue, please include it with your comment.'
-          close-issue-message: 'This issue has been closed due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.'
-          days-before-issue-stale: 14
-          days-before-issue-close: 7
-          exempt-issue-labels: "security,status/confirmed,stale/exempt,accessibility/scaling"
+          stale-issue-label: 'stale'
+          stale-issue-message: |
+            Hello again!
+
+            We have noticed you have not replied for a while. Unfortunately, our team are not always able to get to issues as quickly as we would like. So, if you can help us out by providing the following information, we can get back to you as soon as possible:
+            
+            Could you please ensure your client is as up-to-date as possible, this can be done by using the experimental release on Taproom (if possible), and using the PTB release through the in-app updater.
+            
+            Then could you please let us know if the issue is still present, and if so, provide the version you are using and if any changes have been noticed since the issue was reported?
+            
+            This would be a great help for us to identify issues that have been resolved. 
+
+            Please aim to let us know within the next 14 days, otherwise we will close this issue.
+
+            Thanks for your help! :smiley:
+
+          close-issue-message: |
+            Hello!
+
+            We have had to close the issue due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.
+
+            Thank you for your understanding! :wave:
+          days-before-issue-stale: 10
+          days-before-issue-close: 14
+          exempt-issue-labels: "confirmed,keep-open,security,accessibility/scaling"
           exempt-all-assignees: true
+          exempt-all-issue-milestones: true
