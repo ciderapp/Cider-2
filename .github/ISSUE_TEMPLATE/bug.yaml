@@ -89,6 +89,7 @@ body:
         - Accessibility - Issues with the UI scaling, or any other accessibility features.
         - Dev - For plugin/theme developers: Issues with the API, Websocket, etc. 
       multiple: true
+      default: 0
       options:
         - 'Frontend'
         - 'Backend'
