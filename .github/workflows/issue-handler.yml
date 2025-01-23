@@ -51,7 +51,7 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/bug.yaml
 
-      - name: Set labels based on animals field
+      - name: Set the Labels
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v2
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}

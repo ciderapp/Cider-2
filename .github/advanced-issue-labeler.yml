@@ -1,5 +1,6 @@
 policy:
-  - section:
+  - template: ['bug.yml']
+    section:
       - id: [os]
         block-list: []
         label:
@@ -9,16 +10,15 @@ policy:
             keys: ['Linux']
           - name: 'platform: macos'
             keys: ['macOS']
-  - section: 
-      - id: [type]
+      - id: [type, os]
         block-list: []
         label:
           - name: 'pkg/frontend'
             keys: ['Frontend']
           - name: 'pkg/dotnet-client'
-            keys: ['Backend (Windows)']
+            keys: ['Backend', 'Windows']
           - name: 'pkg/genten-client'
-            keys: ['Backend (Linux / macOS)']
+            keys: ['Backend', 'Linux', 'macOS']
           - name: 'feat: lastfm'
             keys: ['Integration: LastFM']
           - name: 'feat: discordrpc'
