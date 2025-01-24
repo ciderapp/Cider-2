@@ -48,7 +48,7 @@ body:
 
   # Triage 2. App Information
   - type: input
-    id: app-info
+    id: env
     attributes:
       label: App Information
       description: Should be auto-filled when opened from the app, or can be obtained from Copy Build Info button in the About page.
@@ -67,7 +67,7 @@ body:
       required: true
 
   - type: input
-    id: os-version
+    id: osVersion
     attributes:
       label: OS Version
       placeholder: 'Windows 11 / Debian 12 / macOS Sonoma / ...'
