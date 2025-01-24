@@ -2,6 +2,9 @@
 - New Spatial Presets:
   - Maikiwi ('25 Signature A)
   - Maikiwi ('25 Signature B)
+- Updated Editorial Album appearance
+  - Fixed incorrect positioning of banner
+  - On Calico layout, the top bar colors are now adapted to the editorial banners colors
 
 # 2.6.1-PTB137
 - Fixed editorial headers on library albums not appearing
