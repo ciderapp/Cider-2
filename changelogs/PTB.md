@@ -1,3 +1,8 @@
+# 2.6.1-PTB141
+- New Spatial Presets:
+  - Maikiwi ('25 Signature A)
+  - Maikiwi ('25 Signature B)
+
 # 2.6.1-PTB137
 - Fixed editorial headers on library albums not appearing
 - Improved library albums catalog data
