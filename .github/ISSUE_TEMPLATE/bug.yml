@@ -81,8 +81,8 @@ body:
       label: How would you describe your issue?
       description: |
         Please to the best of your ability give us a type of issue you are encountering. (Select all that apply)
-        - Frontend - Issues with the interface, playback, library or any media. Mainly anything you directly interact with.
-        - Backend - Issues with the app interacting with your OS, such as notifications, media keys, etc.
+        - Frontend - Issues with the interface, playback, library or anything you directly see from the app.
+        - Backend - Issues with the app interacting/integrating with your OS, such as notifications, media keys, etc.
         - Integrations - Issues with third-party services such as LastFM, Discord etc.
         - Features - Issues with specific features such as AudioLab, Lyrics, etc.
         - Security - Issues with the security of the app.
