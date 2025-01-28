@@ -20,7 +20,7 @@ policy:
             keys: ['Frontend']
           - name: 'pkg/dotnet-client'
             keys: ['Backend (Windows)']
-          - name: 'pkg/genten-client'
+          - name: 'pkg/electron-client'
             keys: ['Backend (macOS/Linux)']
           - name: 'feat: lastfm'
             keys: ['Integration: LastFM']
