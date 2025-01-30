@@ -1,3 +1,6 @@
+# 2.6.1-PTB146
+- Fixes an issue where pressing Add to Library in some places could add the item twice
+
 # 2.6.1-PTB141
 - New Spatial Presets:
   - Maikiwi ('25 Signature A)
