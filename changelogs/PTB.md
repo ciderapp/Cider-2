@@ -1,3 +1,6 @@
+# 2.6.1-PTB147
+- fix(immersive): change how blurmap artwork is acquired, fixed simple artwork not working correctly
+
 # 2.6.1-PTB146
 - Fixes an issue where pressing Add to Library in some places could add the item twice
 
