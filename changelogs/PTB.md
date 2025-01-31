@@ -1,3 +1,7 @@
+# 2.6.1-PTB148
+- fix(animated-artwork): muted video
+  - [because this is a thing apparently](https://music.apple.com/us/playlist/alternative-hip-hop-essentials/pl.c50280b15852442ba25ca9949fa1a6a5)
+
 # 2.6.1-PTB147
 - fix(immersive): change how blurmap artwork is acquired, fixed simple artwork not working correctly
 
