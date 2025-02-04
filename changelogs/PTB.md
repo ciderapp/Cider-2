@@ -1,3 +1,6 @@
+# 2.6.1-PTB151
+- Replaces current Media Item Artwork component with a newer more flexable version
+
 # 2.6.1-PTB148
 - fix(animated-artwork): muted video
   - [because this is a thing apparently](https://music.apple.com/us/playlist/alternative-hip-hop-essentials/pl.c50280b15852442ba25ca9949fa1a6a5)
