@@ -5,10 +5,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Welcome!
-        Thanks for taking the time to fill out this bug report! 
-        Before you start, if you have a feature request please forward it to our [Discord server](https://discord.com/invite/AppleMusic), where it can be discussed within the community.
-        **Opening Feature Requests on GitHub will be closed and ignored. You have been warned!**
+        ## Welcome!  
+
+        Thank you for taking the time to fill out this bug report!  
+
+        Before you begin, if you have a feature request, please share it on our [Discord server](https://discord.com/invite/AppleMusic), where it can be discussed within the community.  
+
+        **Feature requests opened on GitHub will be closed and ignored. You have been warned!** 🚨 
 
   # Checklist to filter out invalid bug reports     
   - type: checkboxes
@@ -31,9 +34,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Environment Information
-        Most of this information should be filled by the in-app bug report button. If you are not submitting an issue using that, please try to or fill out the required fields with what knowledge you have.
+        ## Environment Information  
 
+        Most of this information should be automatically filled in when using the in-app bug report button. If you are not submitting an issue through that method, please try to do so, or manually fill out the required fields with the information you have.
   # Triage 1. Download Source
   - type: dropdown
     id: source
@@ -80,14 +83,15 @@ body:
     attributes:
       label: How would you describe your issue?
       description: |
-        Please to the best of your ability give us a type of issue you are encountering. (Select all that apply)
-        - Frontend - Issues with the interface, playback, library or anything you directly see from the app.
-        - Backend - Issues with the app interacting/integrating with your OS, such as notifications, media keys, etc.
-        - Integrations - Issues with third-party services such as LastFM, Discord etc.
-        - Features - Issues with specific features such as AudioLab, Lyrics, etc.
-        - Security - Issues with the security of the app.
-        - Accessibility - Issues with the UI scaling, or any other accessibility features.
-        - Dev - For plugin/theme developers: Issues with the API, Websocket, etc. 
+        Please select the type of issue you are encountering to the best of your ability. (Select all that apply)  
+
+        - **Frontend** - Issues with the interface, playback, library, or anything you directly see in the app.  
+        - **Backend** - Issues with the app interacting or integrating with your OS, such as notifications, media keys, etc.  
+        - **Integrations** - Issues with third-party services such as LastFM, Discord, etc.  
+        - **Features** - Issues with specific features such as AudioLab, Lyrics, etc.  
+        - **Security** - Issues related to the security of the app.  
+        - **Accessibility** - Issues with UI scaling or other accessibility features.  
+        - **Dev** - For plugin/theme developers: Issues with the API, WebSocket, etc.   
       multiple: true
       options:
         - 'Frontend'

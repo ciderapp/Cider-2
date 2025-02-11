@@ -22,26 +22,26 @@ jobs:
           repo-token: ${{ steps.gen.outputs.access-token }}
           stale-issue-label: 'stale'
           stale-issue-message: |
-            Hello again!
+            **Hello again!**  
 
-            We have noticed you have not replied for a while. Unfortunately, our team are not always able to get to issues as quickly as we would like. So, if you can help us out by providing the following information, we can get back to you as soon as possible:
-            
-            Could you please ensure your client is as up-to-date as possible, this can be done by using the experimental release on Taproom (if possible), and using the PTB release through the in-app updater.
-            
-            Then could you please let us know if the issue is still present, and if so, provide the version you are using and if any changes have been noticed since the issue was reported?
-            
-            This would be a great help for us to identify issues that have been resolved. 
+            We've noticed that you haven't replied in a while. Unfortunately, our team isn't always able to address issues as quickly as we'd like. To help us assist you more efficiently, please provide the following information:  
 
-            Please aim to let us know within the next 14 days, otherwise we will close this issue.
+            1. Ensure your client is as up-to-date as possible. You can do this by using the experimental release on Taproom (if available) and the PTB release through the in-app updater.  
+            2. Let us know if the issue is still present. If it is, please provide the version you're using and mention any changes you've noticed since reporting the issue.  
+
+            This information will help us identify whether the issue has already been resolved.  
+
+            Please try to update us within the next 14 days; otherwise, we will close this issue.  
 
             Thanks for your help! :smiley:
 
+
           close-issue-message: |
-            Hello!
+            **Hello!**  
 
-            We have had to close the issue due to inactivity. If you find this bug to still be occurring in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.
-
-            Thank you for your understanding! :wave:
+            We have closed this issue due to inactivity. If you are still experiencing this bug in a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md#supported-versions), please open a new issue with the necessary information.  
+            
+            Thank you for your understanding! 👋          
           days-before-issue-stale: 10
           days-before-issue-close: 14
           exempt-issue-labels: "confirmed,keep-open,security,accessibility/scaling"

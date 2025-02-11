@@ -21,15 +21,15 @@ jobs:
         with:
           repo-token: ${{ steps.gen.outputs.access-token }}
           issue-message: |-
-            Hello @${{github.actor}} :wave:
+            Hello @${{github.actor}} 👋  
 
-            We really appreciate you taking the time to report this issue, please double check your issue to make sure you are clear and concise in your description. This will help us to help you as quickly as possible.
+            We really appreciate you taking the time to report this issue! Please double-check your report to ensure your description is clear and concise—this will help us assist you as quickly as possible.  
 
-            We'd like to ask you be patient and we will get back to you as soon as we can.
+            We kindly ask for your patience, and we'll get back to you as soon as we can.  
 
-            In the meantime, take a look at our [FAQs](https://github.com/ciderapp/Cider-2/tree/main?tab=readme-ov-file#faq) which may answer your question.
+            In the meantime, feel free to check out our [FAQs](https://github.com/ciderapp/Cider-2/tree/main?tab=readme-ov-file#faq), which may have the answer to your question.  
 
-            Thanks again and we hope you enjoy the app! :smiley:
+            Thanks again, and we hope you enjoy the app! 😃  
 
   label-component:
     name: Automatically Label Issue
