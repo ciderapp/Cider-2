@@ -47,7 +47,7 @@ jobs:
         uses: stefanbuck/github-issue-parser@v3.2.1
         id: issue-parser
         with:
-          template-path: .github/ISSUE_TEMPLATE/bug.yml
+          template-path: .github/ISSUE_TEMPLATE/1-bug.yml
 
       - name: Set the Labels
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v3.2.0
