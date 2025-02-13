@@ -1,3 +1,7 @@
+# 2.6.1-PTB153
+- fix(albums): fixed portrait album view not rendering
+- fix(albums): albums now show key and BPM
+
 # 2.6.1-PTB151
 - Replaces current Media Item Artwork component with a newer more flexable version
 
