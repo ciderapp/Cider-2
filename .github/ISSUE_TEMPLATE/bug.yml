@@ -1,0 +1,145 @@
+name: Bug Report (Old)
+description: If you encounter an issue whilst using our app, please use this template to help improve the app.
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome!  
+
+        Thank you for taking the time to fill out this bug report!  
+
+        Before you begin, if you have a feature request, please share it on our [Discord server](https://discord.com/invite/AppleMusic), where it can be discussed within the community.  
+
+        **Feature requests opened on GitHub will be closed and ignored. You have been warned!** 🚨 
+
+  # Checklist to filter out invalid bug reports     
+  - type: checkboxes
+    attributes:
+      label: Preflight Checklist
+      description: Please ensure you've completed all of the following.
+      options:
+        - label: I agree to follow the [Code of Conduct](https://cider.sh/legal/conduct) that this project adheres to.
+          required: true
+        - label: I have searched the [issue tracker](https://github.com/ciderapp/Cider-2/issues) for a bug report that matches the one I want to file, without success.
+          required: true
+        - label: I have confirmed that no [support FAQ](https://cider.sh/docs/client/faqs) resolves my issue.
+          required: true
+        - label: I have checked that the correct behavior occurs on [Apple Music Web](https://music.apple.com) (if applicable).
+          required: true
+        - label: I have verified that my issue is with a [supported version](https://github.com/ciderapp/Cider-2/blob/main/SECURITY.md) and that it is with the desktop app (Support for other areas can be found in our Discord / on the appropriate repo).
+          required: true
+
+  # Guide
+  - type: markdown
+    attributes:
+      value: |
+        ## Environment Information  
+
+        Most of this information should be automatically filled in when using the in-app bug report button. If you are not submitting an issue through that method, please try to do so, or manually fill out the required fields with the information you have.
+  # Triage 1. Download Source
+  - type: dropdown
+    id: source
+    attributes:
+      label: How did you download Cider?
+      options:
+        - 'itch.io'
+        - 'Microsoft Store'
+        - 'Taproom'
+    validations:
+      required: true
+
+  # Triage 2. App Information
+  - type: input
+    id: env
+    attributes:
+      label: App Information
+      description: Should be auto-filled when opened from the app, or can be obtained from Copy Build Info button in the About page.
+
+  # Triage 3. OS Information
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: This is just your general OS base. This is to help us triage issues, so please ensure you select the right OS.
+      options:
+        - 'Windows'
+        - 'Linux'
+        - 'macOS'
+    validations:
+      required: true
+
+  - type: input
+    id: osVersion
+    attributes:
+      label: OS Version
+      placeholder: 'Windows 11 / Debian 12 / macOS Sonoma / ...'
+    validations:
+      required: true
+
+  # Triage 4. Issue Type
+  - type: dropdown
+    id: type
+    attributes:
+      label: How would you describe your issue?
+      description: |
+        Please select the type of issue you are encountering to the best of your ability. (Select all that apply)  
+
+        - **Frontend** - Issues with the interface, playback, library, or anything you directly see in the app.  
+        - **Backend** - Issues with the app interacting or integrating with your OS, such as notifications, media keys, etc.  
+        - **Integrations** - Issues with third-party services such as LastFM, Discord, etc.  
+        - **Features** - Issues with specific features such as AudioLab, Lyrics, etc.  
+        - **Security** - Issues related to the security of the app.  
+        - **Accessibility** - Issues with UI scaling or other accessibility features.  
+        - **Dev** - For plugin/theme developers: Issues with the API, WebSocket, etc.   
+      multiple: true
+      options:
+        - 'Frontend'
+        - 'Backend (Windows)'
+        - 'Backend (macOS/Linux)'
+        - 'Integration: LastFM'
+        - 'Integration: DiscordRPC'
+        - 'Feature: AudioLab'
+        - 'Feature: Lyrics'
+        - 'Security'
+        - 'Accessibility'
+        - 'Dev: Websocket'
+    validations:
+      required: true
+
+  # Triage 4. App Version
+  - type: input
+    id: commit
+    attributes:
+      label: Commit Hash
+
+  - type: markdown
+    attributes:
+      value: | 
+        ## Issue Information
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of the bug you encountered. Tell us what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+      
+  - type: textarea
+    id: replication
+    attributes:
+      label: Steps to Reproduce
+      description: How did you produce this bug, tell us how you did it so we can do it ourselves.
+      placeholder: 1. Clicked on...
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
