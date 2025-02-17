@@ -31,7 +31,7 @@ jobs:
 
             This information will help us identify whether the issue has already been resolved.  
 
-            Please try to update us within the next 14 days; otherwise, we will close this issue.  
+            Please try to update us within the next 20 days; otherwise, we will close this issue.  
 
             Thanks for your help! :smiley:
 
@@ -43,7 +43,7 @@ jobs:
             
             Thank you for your understanding! 👋          
           days-before-issue-stale: 10
-          days-before-issue-close: 14
+          days-before-issue-close: 20
           exempt-issue-labels: "confirmed,keep-open,security,accessibility/scaling"
           exempt-all-assignees: true
           exempt-all-issue-milestones: true
