@@ -1,3 +1,6 @@
+# 2.6.1-PTB160
+- Performance improvements for pages with a lot of media items
+
 # 2.6.1-PTB153
 - fix(albums): fixed portrait album view not rendering
 - fix(albums): albums now show key and BPM
