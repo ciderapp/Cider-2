@@ -1,3 +1,11 @@
+# 3.0.0-PTB171
+- fix: Fixed artist play button not having assigned action
+- refactor: removed wait cursor state on context menus
+- feat: Add icons to immersive and mini-player options in NowPlayingContextMenu
+- refactor: Improve data handling and refresh logic in Browse, ListenNow, and Radio components
+- feat: Add artist release date styling and pass artist-release prop to MediaItem components
+- refactor: added git branch to build info
+
 # 2.6.1-PTB160
 - Performance improvements for pages with a lot of media items
 
