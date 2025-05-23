@@ -1,3 +1,10 @@
+# PTB173
+- Updated to Vue 3.5.14
+- feat: Improved Artist page artwork color reactivity 
+- fix: Fixed artist favorites button not working
+- fix: Adjusted RichAlbumGrid offset slightly when album is selected
+- refactor: Add to Playlist shortcut now uses correct context menus
+
 # PTB171
 - fix: Fixed artist play button not having assigned action
 - refactor: removed wait cursor state on context menus
