@@ -1,4 +1,4 @@
-# 3.0.0-PTB171
+# PTB171
 - fix: Fixed artist play button not having assigned action
 - refactor: removed wait cursor state on context menus
 - feat: Add icons to immersive and mini-player options in NowPlayingContextMenu
