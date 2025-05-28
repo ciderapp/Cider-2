@@ -1,3 +1,6 @@
+# PTB174
+- Readded missing "Pin to Home" in media item context menus
+
 # PTB173
 - Updated to Vue 3.5.14
 - feat: Improved Artist page artwork color reactivity 
