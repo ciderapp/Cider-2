@@ -1,3 +1,6 @@
+# PTB-177
+- Compilations / DJ Mix "Albums" will now always display artists even if there is only one
+
 # PTB-175
 - refactor: Artist picker now uses context menus at mouse position instead of a popup
 - refactor: Moved some dialogs to the 3.0 dialog system
