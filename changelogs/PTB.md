@@ -1,3 +1,9 @@
+# PTB179
+- fix: Fixed Sweetener Immersive background when set to "Immersive"
+- refactor: Sweetener immersive background now unloads when window is hidden
+- refactor: Added Limit Immersive background framerate when not in focus
+- refactor: Increased default framerate of Immersive background to better accomidate the increased motion. 30 -> 60 for Immersive mode, 15 -> 25 for Immersive Sweetener
+
 # PTB177
 - Compilations / DJ Mix "Albums" will now always display artists even if there is only one
 
