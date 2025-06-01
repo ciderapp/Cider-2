@@ -1,3 +1,7 @@
+# PTB181
+- refactor: Improved scrolling for sliders when using the direction buttons
+- Fixed missing transition for sweetener Immersive background
+
 # PTB179
 - fix: Fixed Sweetener Immersive background when set to "Immersive"
 - refactor: Sweetener immersive background now unloads when window is hidden
