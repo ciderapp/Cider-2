@@ -1,3 +1,8 @@
+# PTB182
+- feat: Scrollers can now be horizontally scrolled by using the scroll wheel while hovering over the buttons
+- fix: Readded missing open in new tab
+- fix: Fix for exiting mini player causing the WebView2 render freezing up on Windows
+
 # PTB181
 - refactor: Improved scrolling for sliders when using the direction buttons
 - Fixed missing transition for sweetener Immersive background
