@@ -1,3 +1,8 @@
+# PTB184
+- feat: Added "Move to Folder" and "Move to Top" to sidebar playlist context menu
+- refactor: Changed playlist sorting behavior, playlist folders are now always at the top while still being sorted
+- refactor: Updated create playlist and create playlist folder dialogs
+
 # PTB182
 - feat: Scrollers can now be horizontally scrolled by using the scroll wheel while hovering over the buttons
 - fix: Readded missing open in new tab
