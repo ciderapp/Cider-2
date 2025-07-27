@@ -23,7 +23,7 @@ The YAML front matter must be enclosed between `---` markers and contain the fol
 ---
 version: "2.3.2"
 shortDesc: "Brief description of the release"
-thumbnail: "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"
+thumbnail: "https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/2.3.2.png"
 highlights:
   - name: "Feature Name"
     desc: "Description of the feature"
@@ -51,10 +51,10 @@ highlights:
 
 #### `thumbnail` (string, optional)
 - URL to a preview image for the release
-- Should use the format: `https://github.com/ciderapp/Cider-2/changelogs/images/filename`
+- Should use the format: `https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/filename`
 - Images should be stored in the `changelogs/images/` directory
 - Recommended formats: PNG, JPG
-- Example: `"https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"`
+- Example: `"https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/2.3.2.png"`
 
 #### `highlights` (array, required)
 - An array of the most important features/changes in the release
@@ -130,7 +130,7 @@ After the closing `---` of the YAML front matter, include the full changelog con
 ---
 version: "2.3.2"
 shortDesc: "Major UI improvements with new queue system and redesigned library views"
-thumbnail: "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"
+thumbnail: "https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/2.3.2.png"
 highlights:
   - name: "New Queue List"
     desc: "Replaces the current queue with a new, more powerful queue list. Featuring multi-selection and a new UI."
@@ -188,7 +188,7 @@ When processed by the Rise API Module, the changelog will be served as JSON with
   "version": "2.3.2",
   "shortDesc": "Major UI improvements with new queue system and redesigned library views",
   "longDesc": "# Cider 2.3.2\n\n- Various changes to Library Artists...",
-  "thumbnail": "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png",
+  "thumbnail": "https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/2.3.2.png",
   "highlights": [
     {
       "name": "New Queue List",
@@ -250,11 +250,11 @@ When migrating existing entries from `WhatsNew.vue`:
 
 When migrating from legacy changelog files:
 
-1. Convert existing `image` field to full `thumbnail` URL format
+1. Convert existing `image` field to full `thumbnail` URL format using `https://raw.githubusercontent.com/ciderapp/Cider-2/main/changelogs/images/filename`
 2. Extract key features from content to create `highlights` array
 3. Create `shortDesc` summarizing the main changes
 4. Preserve version numbers and existing content structure
-5. Update any relative image paths to full GitHub URLs
+5. Update any relative image paths to full GitHub raw URLs
 
 ## Git Integration
 
