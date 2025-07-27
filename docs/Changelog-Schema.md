@@ -23,6 +23,7 @@ The YAML front matter must be enclosed between `---` markers and contain the fol
 ---
 version: "2.3.2"
 shortDesc: "Brief description of the release"
+thumbnail: "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"
 highlights:
   - name: "Feature Name"
     desc: "Description of the feature"
@@ -47,6 +48,13 @@ highlights:
 - Examples:
   - `"Major UI improvements with new queue system and redesigned library views"`
   - `"Bug fixes and security improvements with enhanced RPC controls"`
+
+#### `thumbnail` (string, optional)
+- URL to a preview image for the release
+- Should use the format: `https://github.com/ciderapp/Cider-2/changelogs/images/filename`
+- Images should be stored in the `changelogs/images/` directory
+- Recommended formats: PNG, JPG
+- Example: `"https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"`
 
 #### `highlights` (array, required)
 - An array of the most important features/changes in the release
@@ -122,6 +130,7 @@ After the closing `---` of the YAML front matter, include the full changelog con
 ---
 version: "2.3.2"
 shortDesc: "Major UI improvements with new queue system and redesigned library views"
+thumbnail: "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png"
 highlights:
   - name: "New Queue List"
     desc: "Replaces the current queue with a new, more powerful queue list. Featuring multi-selection and a new UI."
@@ -179,6 +188,7 @@ When processed by the Rise API Module, the changelog will be served as JSON with
   "version": "2.3.2",
   "shortDesc": "Major UI improvements with new queue system and redesigned library views",
   "longDesc": "# Cider 2.3.2\n\n- Various changes to Library Artists...",
+  "thumbnail": "https://github.com/ciderapp/Cider-2/changelogs/images/2.3.2.png",
   "highlights": [
     {
       "name": "New Queue List",
@@ -219,9 +229,32 @@ Before committing a changelog file, ensure:
 3. ✅ Version number matches filename
 4. ✅ Highlights array contains 3-8 items
 5. ✅ Each highlight has all required fields (`name`, `desc`, `icon`)
-6. ✅ Markdown content starts with H1 heading
-7. ✅ Content is well-organized with appropriate headings
-8. ✅ No syntax errors in YAML or Markdown
+6. ✅ If `thumbnail` is provided, it uses the correct GitHub URL format
+7. ✅ Markdown content starts with H1 heading
+8. ✅ Content is well-organized with appropriate headings
+9. ✅ No syntax errors in YAML or Markdown
+
+## Migration from WhatsNew.vue
+
+When migrating existing entries from `WhatsNew.vue`:
+
+1. Extract version number and use as filename
+2. Convert `items` array to `highlights` array
+3. Create appropriate `shortDesc` based on the features
+4. Add `thumbnail` URL if an image exists in `changelogs/images/`
+5. Expand content from brief descriptions to full markdown
+6. Ensure icon identifiers are preserved correctly
+7. Add any missing changelog URLs or references
+
+## Migration from Legacy Changelogs
+
+When migrating from legacy changelog files:
+
+1. Convert existing `image` field to full `thumbnail` URL format
+2. Extract key features from content to create `highlights` array
+3. Create `shortDesc` summarizing the main changes
+4. Preserve version numbers and existing content structure
+5. Update any relative image paths to full GitHub URLs
 
 ## Git Integration
 
