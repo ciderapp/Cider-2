@@ -12,7 +12,7 @@ These are our supported versions. Please do not report security issues present o
 | Version | Supported          | Note |
 | ------- | ------------------ | ---|
 | 3.1.x   | :white_check_mark: ||
-| 3.0.9   | ⚠️ | Out of support upon MS Store approval of 3.1
+| 3.0.x   | :x: | |
 | 2.x.x   | :x: | Succeeded by Cider 3 |
 
 ## Reporting a Vulnerability
