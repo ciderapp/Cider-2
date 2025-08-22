@@ -3,20 +3,17 @@
 ## Supported Versions
 
 These are our supported versions. Please do not report security issues present on unsupported versions, they will be ignored.
+**Note:** We only support the latest stable patch for a given version.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 2.6.1   | :white_check_mark: |
-| 2.6.0   | :white_check_mark: |
-| 2.5.3   | :x: |
-| 2.5.1   | :x: |
-| 2.5.0   | :x: |
-| 2.4.2   | :x: | 
-| 2.4.1   | :x: |
-| 2.4.0   | :x: |
-| 2.3.1   | :x: |
-| 2.3.0   | :x: |
-| < 2.2.0   | :x: |
+**Legend**
+- ✅ Supported
+- ⚠️ Maintenance
+  
+| Version | Supported          | Note |
+| ------- | ------------------ | ---|
+| 3.1.x   | :white_check_mark: ||
+| 3.0.9   | ⚠️ | Out of support upon MS Store approval of 3.1
+| 2.x.x   | :x: | Succeeded by Cider 3 |
 
 ## Reporting a Vulnerability
 
