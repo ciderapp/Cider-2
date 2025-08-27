@@ -1,3 +1,8 @@
+# PTB192
+- Updated to Vue 3.5.20
+- Updated several dependencies
+- Added `data-nav-path` attribute to `<NavigationButton>`
+
 # PTB184
 - feat: Added "Move to Folder" and "Move to Top" to sidebar playlist context menu
 - refactor: Changed playlist sorting behavior, playlist folders are now always at the top while still being sorted
