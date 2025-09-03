@@ -1,3 +1,9 @@
+# PTB195
+- feat(solarium): add drawer resize functionality with localStorage support
+- Add OOBE window style selection for Linux and new preview assets
+- Updated to Vue 3.5.21
+- Updated various dependencies
+
 # PTB192
 - Updated to Vue 3.5.20
 - Updated several dependencies
