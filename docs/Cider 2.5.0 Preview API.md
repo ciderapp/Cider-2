@@ -87,7 +87,7 @@ Base URL: `http://localhost:10767/`
  - `/play-next`
   - Takes `id` and `type`
 
- - `/play-itemr`
+ - `/play-item`
   - Takes `id` and `type`
  
 - `/queue/move-to-position` - Moves position of queue item to a new position
