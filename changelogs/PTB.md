@@ -1,3 +1,8 @@
+# PTB196
+- fix: Context menu positioning for async operations (like on Media Items) now appear where they were invoked instead of where the mouse cursor is after
+  - macOS and Linux will have this fix right away
+  - Windows will require a planned client revision
+
 # PTB195
 - feat(solarium): add drawer resize functionality with localStorage support
 - Add OOBE window style selection for Linux and new preview assets
